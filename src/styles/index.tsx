@@ -86,8 +86,17 @@ export const InputContainer = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 89px;
   max-width: 477px;
-  padding: 5px;
 `;
+
+export const InputEmail = styled.input.attrs(() => ({
+  type: 'email',
+  placeholder: 'Enter you Email Address'
+}))`
+  border: none;
+  padding: 12px 0px;
+  width: 60%;
+  background: transparent;
+`
 
 export const Select = styled.select`
   
