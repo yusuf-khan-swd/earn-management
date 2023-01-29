@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import btnPng from '../assets/btnPng.png';
 import logo from '../assets/logo.png';
+import bannerImage from '../assets/banner.png';
 
 export const Navbar = styled.nav`
   font-size: 15px;
@@ -25,6 +26,7 @@ export const MenuItems = styled.li`
   cursor: pointer;
   margin-right: 8px;
   font-weight: 500;
+  color: white;
 `;
 
 export const NavSocialMediaContainer = styled.div`
@@ -58,7 +60,16 @@ export const Banner = styled.div`
 `
 
 export const BannerContentSection = styled.section``;
-export const BannerImageSection = styled.section``
+export const BannerTitle = styled.h1`
+  font-weight: 500;
+  font-size: 80px;
+  color: white;
+`;
+export const BannerBody = styled.p`
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+`;
 
 export const InputContainer = styled.div`
   
@@ -67,9 +78,15 @@ export const InputContainer = styled.div`
 export const Select = styled.select`
   
 `
-
 export const ButtonIcon = styled.img.attrs(() => ({
   src: btnPng
 })) `
   width: 50px;
+`
+
+export const BannerImageSection = styled.section``
+export const BannerImage = styled.img.attrs(() => ({
+  src: bannerImage
+})) `
+  width: 100%;
 `
