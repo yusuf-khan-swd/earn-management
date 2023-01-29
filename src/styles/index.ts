@@ -28,8 +28,7 @@ export const MenuItems = styled.li`
 `;
 
 export const NavSocialMediaContainer = styled.div`
-  /* border: 1px solid rgba(255, 255, 255, 0.17); */
-  border: 1px solid grey;
+  border: 1px solid rgba(255, 255, 255, 0.17);
   border-radius: 60px;
   width: 106px;
   height: 56px;
@@ -42,19 +41,24 @@ export const DiscordLink = styled.a.attrs(() => ({
   href: '#'
 })) `
   font-size: 20px;
-  margin-right: 29px
+  margin-right: 29px;
+  color: white;
 `
 
 export const TwitterLink = styled.a.attrs(() => ({
   href: '#'
 })) `
   font-size: 20px;
+  color: white;
 `
 
 export const Banner = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
 `
+
+export const BannerContentSection = styled.section``;
+export const BannerImageSection = styled.section``
 
 export const InputContainer = styled.div`
   

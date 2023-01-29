@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, ButtonIcon, DiscordLink, InputContainer, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, TwitterLink } from '../../styles';
+import { Banner, BannerContentSection, BannerImageSection, ButtonIcon, DiscordLink, InputContainer, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, TwitterLink } from '../../styles';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
 import bannerImage from '../../assets/banner.png';
 
@@ -23,7 +23,7 @@ const Home = () => {
         </NavSocialMediaContainer>
       </Navbar>
       <Banner>
-        <div>
+        <BannerContentSection>
           <h1>Guild Hub of the Metaverse</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil totam fuga atque incidunt possimus numquam temporibus, natus sit ea ullam.</p>
           <InputContainer>
@@ -34,10 +34,10 @@ const Home = () => {
             </Select>
             <ButtonIcon></ButtonIcon>
           </InputContainer>
-        </div>
-        <div>
+        </BannerContentSection>
+        <BannerImageSection>
           <img src={bannerImage} alt="" />
-        </div>
+        </BannerImageSection>
       </Banner>
     </div>
   );
