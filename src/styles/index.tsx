@@ -11,6 +11,7 @@ export const Navbar = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding-top: 8px;
+  margin: 0 auto;
 `
 
 export const NavLogo = styled.img.attrs(() => ({
@@ -66,7 +67,7 @@ export const Banner = styled.div`
   height: 100vh;
 `
 
-export const BannerContentSection = styled.section``;
+export const BannerContentSection = styled.div``;
 export const BannerTitle = styled.h1`
   font-weight: 500;
   font-size: 80px;
@@ -79,7 +80,13 @@ export const BannerBody = styled.p`
 `;
 
 export const InputContainer = styled.div`
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 89px;
+  max-width: 477px;
+  padding: 5px;
 `;
 
 export const Select = styled.select`
@@ -91,7 +98,12 @@ export const ButtonIcon = styled.img.attrs(() => ({
   max-width: 50px;
 `
 
-export const BannerImageSection = styled.section``
+export const BannerImageSection = styled.div`
+  background: radial-gradient(41.76% 41.76% at 50% 50%, rgba(0, 209, 255, 0.24) 0%, rgba(0, 163, 255, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 export const BannerImage = styled.img.attrs(() => ({
   src: bannerImage
 }))`
