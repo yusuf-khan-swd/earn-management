@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, Discord, DiscordLink, InputContainer, InputEmail, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, Twitter, TwitterLink } from '../../styles';
+import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, Discord, DiscordLink, InputContainer, InputEmail, MenuContainer, MenuItems, MenuItemsLink, Navbar, NavLogo, NavSocialMediaContainer, Select, Twitter, TwitterLink } from '../../styles';
 
 const Home = () => {
   return (
@@ -7,9 +7,15 @@ const Home = () => {
       <Navbar>
         <NavLogo></NavLogo>
         <MenuContainer>
-          <MenuItems>Road Map</MenuItems>
-          <MenuItems>Contact</MenuItems>
-          <MenuItems>Blog</MenuItems>
+          <MenuItems>
+            <MenuItemsLink>Road Map</MenuItemsLink>
+          </MenuItems>
+          <MenuItems>
+            <MenuItemsLink>Contact</MenuItemsLink>
+          </MenuItems>
+          <MenuItems>
+            <MenuItemsLink>Blog</MenuItemsLink>
+          </MenuItems>
         </MenuContainer>
         <NavSocialMediaContainer>
           <DiscordLink>
@@ -29,7 +35,7 @@ const Home = () => {
           <InputContainer>
             <InputEmail></InputEmail>
             <Select>
-              <option value="0">Owner:</option>
+              <option value="0">Owner</option>
               <option value="1">Audi</option>
             </Select>
             <ButtonIcon></ButtonIcon>

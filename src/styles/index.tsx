@@ -23,11 +23,15 @@ export const MenuContainer = styled.ul`
   display: flex;
 `
 export const MenuItems = styled.li`
-  cursor: pointer;
-  margin-right: 8px;
-  font-weight: 500;
-  color: white;
+  margin-right: 31px;
 `;
+
+export const MenuItemsLink = styled.a.attrs(() => ({
+  href: "/#"
+}))`
+  color: white;
+  text-decoration: none;
+  `
 
 export const NavSocialMediaContainer = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.17);
@@ -81,11 +85,11 @@ export const BannerBody = styled.p`
 
 export const InputContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 89px;
-  max-width: 477px;
+  max-width: 400px;
 `;
 
 export const InputEmail = styled.input.attrs(() => ({
@@ -96,15 +100,24 @@ export const InputEmail = styled.input.attrs(() => ({
   padding: 12px 0px;
   width: 60%;
   background: transparent;
+  margin-left: 4px;
 `
 
 export const Select = styled.select`
+  background: transparent;
+  color: white;
+  border: none;
+
+  option: {
+    margin-left: 10px;
+  }
   
 `
 export const ButtonIcon = styled.img.attrs(() => ({
   src: btnPng
 }))`
   max-width: 50px;
+  margin-right: 2px;
 `
 
 export const BannerImageSection = styled.div`
