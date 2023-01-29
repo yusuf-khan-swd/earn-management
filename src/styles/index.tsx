@@ -7,16 +7,13 @@ export const Navbar = styled.nav`
   font-size: 15px;
   display: flex;
   justify-content: space-between;
-  margin: 0 8px;
   align-items: center;
   padding-top: 8px;
-  position: sticky;
-  top: 0
 `
 
 export const NavLogo = styled.img.attrs(() => ({
   src: logo
-})) ``
+}))``
 
 export const MenuContainer = styled.ul`
   list-style: none;
@@ -41,7 +38,7 @@ export const NavSocialMediaContainer = styled.div`
 
 export const DiscordLink = styled.a.attrs(() => ({
   href: '#'
-})) `
+}))`
   font-size: 20px;
   margin-right: 29px;
   color: white;
@@ -49,7 +46,7 @@ export const DiscordLink = styled.a.attrs(() => ({
 
 export const TwitterLink = styled.a.attrs(() => ({
   href: '#'
-})) `
+}))`
   font-size: 20px;
   color: white;
 `
@@ -57,6 +54,7 @@ export const TwitterLink = styled.a.attrs(() => ({
 export const Banner = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100vh;
 `
 
 export const BannerContentSection = styled.section``;
@@ -80,13 +78,13 @@ export const Select = styled.select`
 `
 export const ButtonIcon = styled.img.attrs(() => ({
   src: btnPng
-})) `
-  width: 50px;
+}))`
+  max-width: 50px;
 `
 
 export const BannerImageSection = styled.section``
 export const BannerImage = styled.img.attrs(() => ({
   src: bannerImage
-})) `
+}))`
   width: 100%;
 `

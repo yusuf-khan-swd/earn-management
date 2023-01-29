@@ -1,7 +1,6 @@
 import React from 'react';
 import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, DiscordLink, InputContainer, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, TwitterLink } from '../../styles';
 import { FaDiscord, FaTwitter } from 'react-icons/fa';
-import bannerImage from '../../assets/banner.png';
 
 const Home = () => {
   return (
