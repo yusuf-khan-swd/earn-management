@@ -1,18 +1,12 @@
-import styled from 'styled-components'
+import Home from './components/Home/Home';
 
 function App() {
 
   return (
     <div>
-      <Title>Hello World</Title>
+      <Home></Home>
     </div>
   )
 }
 
 export default App;
-
-const Title = styled.h1`
-font-size: 1.5em;
-text-align: center;
-color: palevioletred;
-`;
