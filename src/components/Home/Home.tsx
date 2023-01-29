@@ -1,6 +1,5 @@
 import React from 'react';
-import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, DiscordLink, InputContainer, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, TwitterLink } from '../../styles';
-import { FaDiscord, FaTwitter } from 'react-icons/fa';
+import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, Discord, DiscordLink, InputContainer, MenuContainer, MenuItems, Navbar, NavLogo, NavSocialMediaContainer, Select, Twitter, TwitterLink } from '../../styles';
 
 const Home = () => {
   return (
@@ -14,10 +13,10 @@ const Home = () => {
         </MenuContainer>
         <NavSocialMediaContainer>
           <DiscordLink>
-            <FaDiscord></FaDiscord>
+            <Discord></Discord>
           </DiscordLink>
           <TwitterLink>
-            <FaTwitter></FaTwitter>
+            <Twitter></Twitter>
           </TwitterLink>
         </NavSocialMediaContainer>
       </Navbar>

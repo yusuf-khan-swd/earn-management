@@ -2,6 +2,8 @@ import styled from "styled-components";
 import btnPng from '../assets/btnPng.png';
 import logo from '../assets/logo.png';
 import bannerImage from '../assets/banner.png';
+import discordImage from '../assets/discord.png';
+import twitterImage from '../assets/twitter.png';
 
 export const Navbar = styled.nav`
   font-size: 15px;
@@ -44,12 +46,19 @@ export const DiscordLink = styled.a.attrs(() => ({
   color: white;
 `
 
+export const Discord = styled.img.attrs(() => ({
+  src: discordImage
+}))``
+
 export const TwitterLink = styled.a.attrs(() => ({
   href: '#'
 }))`
   font-size: 20px;
   color: white;
 `
+export const Twitter = styled.img.attrs(() => ({
+  src: twitterImage
+}))``
 
 export const Banner = styled.div`
   display: grid;
