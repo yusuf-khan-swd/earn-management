@@ -71,7 +71,10 @@ export const Twitter = styled.img.attrs(() => ({
 export const Banner = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 100vh;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const BannerContentSection = styled.div``;
@@ -80,6 +83,7 @@ export const BannerTitle = styled.h1`
   font-size: 80px;
   color: white;
 `;
+
 export const BannerBody = styled.p`
   font-weight: 400;
   font-size: 20px;
