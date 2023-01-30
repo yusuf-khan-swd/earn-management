@@ -1,5 +1,27 @@
-import React from 'react';
-import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSection, BannerTitle, ButtonIcon, Discord, DiscordLink, InputContainer, InputEmail, MenuContainer, MenuItems, MenuItemsLink, Navbar, NavLogo, NavSocialMediaContainer, Select, Twitter, TwitterLink } from '../../styles';
+import React from "react";
+import {
+  Banner,
+  BannerBody,
+  BannerContentSection,
+  BannerImage,
+  BannerImageSection,
+  BannerTitle,
+  ButtonIcon,
+  Discord,
+  DiscordLink,
+  InputContainer,
+  InputEmail,
+  MenuContainer,
+  MenuItems,
+  MenuItemsLink,
+  Navbar,
+  NavLogo,
+  NavSocialMediaContainer,
+  Select,
+  SelectOption,
+  Twitter,
+  TwitterLink,
+} from "../../styles";
 
 const Home = () => {
   return (
@@ -30,13 +52,15 @@ const Home = () => {
         <BannerContentSection>
           <BannerTitle>Guild Hub of the Metaverse</BannerTitle>
           <BannerBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis mattis hendrerit. Praesent vel risus in risus vestibulum aliquet.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            sagittis mattis hendrerit. Praesent vel risus in risus vestibulum
+            aliquet.
           </BannerBody>
           <InputContainer>
             <InputEmail></InputEmail>
             <Select>
-              <option value="0">Owner</option>
-              <option value="1">Audi</option>
+              <SelectOption>Owner</SelectOption>
+              <SelectOption>Audi</SelectOption>
             </Select>
             <ButtonIcon></ButtonIcon>
           </InputContainer>

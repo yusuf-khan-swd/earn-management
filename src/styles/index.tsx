@@ -120,6 +120,10 @@ export const Select = styled.select`
   }
   
 `
+export const SelectOption = styled.option.attrs(() => ({
+  value: "0"
+}))``
+
 export const ButtonIcon = styled.img.attrs(() => ({
   src: btnPng
 }))`
