@@ -142,3 +142,15 @@ export const BannerImage = styled.img.attrs(() => ({
 }))`
   width: 100%;
 `
+
+export const RoadMapContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 3px solid rgba(255, 255, 255, 0.12);
+`
+
+export const RoadMapContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
