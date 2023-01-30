@@ -3,7 +3,7 @@ import { Banner, BannerBody, BannerContentSection, BannerImage, BannerImageSecti
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar>
         <NavLogo></NavLogo>
         <MenuContainer>
@@ -45,7 +45,7 @@ const Home = () => {
           <BannerImage></BannerImage>
         </BannerImageSection>
       </Banner>
-    </div>
+    </>
   );
 };
 
