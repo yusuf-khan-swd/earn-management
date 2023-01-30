@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import bannerImage from "../assets/banner.png";
 import discordImage from "../assets/discord.png";
 import twitterImage from "../assets/twitter.png";
+import roadMapMainImage from "../assets/roadmapMainImage.png";
 
 export const Navbar = styled.nav`
   font-size: 15px;
@@ -151,7 +152,7 @@ export const BannerImage = styled.img.attrs(() => ({
 export const RoadMapContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 3px solid rgba(255, 255, 255, 0.12);
+  /* border: 3px solid rgba(255, 255, 255, 0.12); */
   margin: 0 80px;
 `;
 
@@ -178,4 +179,14 @@ export const RoadMapSubTitle = styled.p`
   margin: 0px;
 `;
 
-export const RoadMapImageContainer = styled.div``;
+export const RoadMapImageContainer = styled.div`
+  background: radial-gradient(
+    41.76% 41.76% at 50% 50%,
+    rgba(0, 56, 255, 0.24) 0%,
+    rgba(0, 133, 255, 0) 100%
+  );
+`;
+
+export const RoadMapMainImage = styled.img.attrs(() => ({
+  src: roadMapMainImage,
+}))``;

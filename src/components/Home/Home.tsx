@@ -19,6 +19,8 @@ import {
   NavSocialMediaContainer,
   RoadMapContainer,
   RoadMapContent,
+  RoadMapImageContainer,
+  RoadMapMainImage,
   RoadMapSubTitle,
   RoadMapTitle,
   RoadMapTitleContainer,
@@ -83,6 +85,9 @@ const Home = () => {
             </RoadMapSubTitle>
           </RoadMapTitleContainer>
         </RoadMapContent>
+        <RoadMapImageContainer>
+          <RoadMapMainImage></RoadMapMainImage>
+        </RoadMapImageContainer>
       </RoadMapContainer>
     </>
   );
