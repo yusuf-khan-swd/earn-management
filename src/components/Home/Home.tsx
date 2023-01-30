@@ -17,6 +17,11 @@ import {
   Navbar,
   NavLogo,
   NavSocialMediaContainer,
+  RoadMapContainer,
+  RoadMapContent,
+  RoadMapSubTitle,
+  RoadMapTitle,
+  RoadMapTitleContainer,
   Select,
   SelectOption,
   Twitter,
@@ -69,6 +74,16 @@ const Home = () => {
           <BannerImage></BannerImage>
         </BannerImageSection>
       </Banner>
+      <RoadMapContainer>
+        <RoadMapContent>
+          <RoadMapTitleContainer>
+            <RoadMapTitle>Road Map</RoadMapTitle>
+            <RoadMapSubTitle>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </RoadMapSubTitle>
+          </RoadMapTitleContainer>
+        </RoadMapContent>
+      </RoadMapContainer>
     </>
   );
 };

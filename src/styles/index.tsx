@@ -78,10 +78,12 @@ export const Banner = styled.div`
 `;
 
 export const BannerContentSection = styled.div``;
+
 export const BannerTitle = styled.h1`
   font-weight: 500;
   font-size: 80px;
   color: white;
+  margin-bottom: 10px;
 `;
 
 export const BannerBody = styled.p`
@@ -150,6 +152,7 @@ export const RoadMapContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 3px solid rgba(255, 255, 255, 0.12);
+  margin: 0 80px;
 `;
 
 export const RoadMapContent = styled.div`
@@ -158,8 +161,21 @@ export const RoadMapContent = styled.div`
   justify-content: space-between;
 `;
 
-export const RoadMapTitle = styled.div`
+export const RoadMapTitleContainer = styled.div``;
+
+export const RoadMapTitle = styled.h2`
   font-style: normal;
   font-weight: 500;
   font-size: 80px;
+  color: #ffffff;
+  margin: 0px;
 `;
+
+export const RoadMapSubTitle = styled.p`
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0px;
+`;
+
+export const RoadMapImageContainer = styled.div``;
