@@ -16,7 +16,10 @@ export const Navbar = styled.nav`
 
 export const NavLogo = styled.img.attrs(() => ({
   src: logo
-}))``
+}))`
+  max-width: 70px;
+  margin: 8px;
+`
 
 export const MenuContainer = styled.ul`
   list-style: none;
