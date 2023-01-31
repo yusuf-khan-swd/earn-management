@@ -7,16 +7,8 @@ import {
   BannerImageSection,
   BannerTitle,
   ButtonIcon,
-  Discord,
-  DiscordLink,
   InputContainer,
   InputEmail,
-  MenuContainer,
-  MenuItems,
-  MenuItemsLink,
-  Navbar,
-  NavLogo,
-  NavSocialMediaContainer,
   RoadMapContainer,
   RoadMapContent,
   RoadMapImageContainer,
@@ -26,8 +18,6 @@ import {
   RoadMapTitleContainer,
   Select,
   SelectOption,
-  Twitter,
-  TwitterLink,
   YearsRoadMapBody,
   YearsRoadMapBodyText,
   YearsRoadMapLeft,
@@ -38,32 +28,12 @@ import {
   YearsImageContainer,
   YearsImage,
 } from "../../styles";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (
     <>
-      <Navbar>
-        <NavLogo></NavLogo>
-        <MenuContainer>
-          <MenuItems>
-            <MenuItemsLink>Road Map</MenuItemsLink>
-          </MenuItems>
-          <MenuItems>
-            <MenuItemsLink>Contact</MenuItemsLink>
-          </MenuItems>
-          <MenuItems>
-            <MenuItemsLink>Blog</MenuItemsLink>
-          </MenuItems>
-        </MenuContainer>
-        <NavSocialMediaContainer>
-          <DiscordLink>
-            <Discord></Discord>
-          </DiscordLink>
-          <TwitterLink>
-            <Twitter></Twitter>
-          </TwitterLink>
-        </NavSocialMediaContainer>
-      </Navbar>
+      <Navbar></Navbar>
       <Banner>
         <BannerContentSection>
           <BannerTitle>Guild Hub of the Metaverse</BannerTitle>

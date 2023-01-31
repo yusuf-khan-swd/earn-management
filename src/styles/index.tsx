@@ -1,75 +1,9 @@
 import styled from "styled-components";
 import btnPng from "../assets/btnPng.png";
-import logo from "../assets/logo.png";
 import { Props } from "../types/interfaces";
 import bannerImage from "../assets/banner.png";
-import discordImage from "../assets/discord.png";
-import twitterImage from "../assets/twitter.png";
 import roadMapMainImage from "../assets/roadmapMainImage.png";
 import left1 from "../assets/left1.png";
-
-export const Navbar = styled.nav`
-  font-size: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 8px;
-  margin: 0 auto;
-`;
-
-export const NavLogo = styled.img.attrs(() => ({
-  src: logo,
-}))`
-  max-width: 70px;
-  margin: 8px;
-`;
-
-export const MenuContainer = styled.ul`
-  list-style: none;
-  display: flex;
-`;
-export const MenuItems = styled.li`
-  margin-right: 31px;
-`;
-
-export const MenuItemsLink = styled.a.attrs(() => ({
-  href: "/#",
-}))`
-  color: white;
-  text-decoration: none;
-`;
-
-export const NavSocialMediaContainer = styled.div`
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  border-radius: 60px;
-  width: 106px;
-  height: 56px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const DiscordLink = styled.a.attrs(() => ({
-  href: "#",
-}))`
-  font-size: 20px;
-  margin-right: 29px;
-  color: white;
-`;
-
-export const Discord = styled.img.attrs(() => ({
-  src: discordImage,
-}))``;
-
-export const TwitterLink = styled.a.attrs(() => ({
-  href: "#",
-}))`
-  font-size: 20px;
-  color: white;
-`;
-export const Twitter = styled.img.attrs(() => ({
-  src: twitterImage,
-}))``;
 
 export const Banner = styled.div`
   display: grid;
