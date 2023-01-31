@@ -17,7 +17,7 @@ import {
   YearsImage,
   YearsRoadMapBody,
   RoadMapWrapper,
-} from "../../styles/RoadMap";
+} from "../../styles/RoadMapStyles";
 
 const RoadMap = () => {
   return (

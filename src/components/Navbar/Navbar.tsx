@@ -10,7 +10,7 @@ import {
   NavSocialMediaContainer,
   Twitter,
   TwitterLink,
-} from "../../styles/navbar";
+} from "../../styles/navbarStyles";
 
 const Navbar = () => {
   return (

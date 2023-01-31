@@ -11,7 +11,7 @@ import {
   InputEmail,
   Select,
   SelectOption,
-} from "../../styles/banner";
+} from "../../styles/bannerStyles";
 
 const Banner = () => {
   return (
