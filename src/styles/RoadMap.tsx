@@ -3,6 +3,8 @@ import { Props } from "../types/interfaces";
 import roadMapMainImage from "../assets/roadmapMainImage.png";
 import left1 from "../assets/left1.png";
 
+export const RoadMapWrapper = styled.div``;
+
 export const RoadMapContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
