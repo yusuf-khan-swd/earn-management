@@ -1,14 +1,5 @@
 import React from "react";
 import {
-  Banner,
-  BannerBody,
-  BannerContentSection,
-  BannerImage,
-  BannerImageSection,
-  BannerTitle,
-  ButtonIcon,
-  InputContainer,
-  InputEmail,
   RoadMapContainer,
   RoadMapContent,
   RoadMapImageContainer,
@@ -16,9 +7,6 @@ import {
   RoadMapSubTitle,
   RoadMapTitle,
   RoadMapTitleContainer,
-  Select,
-  SelectOption,
-  YearsRoadMapBody,
   YearsRoadMapBodyText,
   YearsRoadMapLeft,
   YearsRoadMapRight,
@@ -27,34 +15,16 @@ import {
   YearsRoadMapTitle,
   YearsImageContainer,
   YearsImage,
+  YearsRoadMapBody,
 } from "../../styles";
+import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (
     <>
       <Navbar></Navbar>
-      <Banner>
-        <BannerContentSection>
-          <BannerTitle>Guild Hub of the Metaverse</BannerTitle>
-          <BannerBody>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            sagittis mattis hendrerit. Praesent vel risus in risus vestibulum
-            aliquet.
-          </BannerBody>
-          <InputContainer>
-            <InputEmail></InputEmail>
-            <Select>
-              <SelectOption>Owner</SelectOption>
-              <SelectOption>Audi</SelectOption>
-            </Select>
-            <ButtonIcon></ButtonIcon>
-          </InputContainer>
-        </BannerContentSection>
-        <BannerImageSection>
-          <BannerImage></BannerImage>
-        </BannerImageSection>
-      </Banner>
+      <Banner></Banner>
       <RoadMapContainer>
         <RoadMapContent>
           <RoadMapTitleContainer>
