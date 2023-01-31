@@ -15,14 +15,14 @@ export const BannerContentSection = styled.div``;
 
 export const BannerTitle = styled.h1`
   font-weight: 500;
-  font-size: 80px;
+  font-size: 70px;
   color: white;
   margin-bottom: 10px;
 `;
 
 export const BannerBody = styled.p`
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   margin-bottom: 30px;
 `;

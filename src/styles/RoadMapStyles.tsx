@@ -3,7 +3,9 @@ import { Props } from "../types/interfaces";
 import roadMapMainImage from "../assets/roadMapMainImage.png";
 import left1 from "../assets/left1.png";
 
-export const RoadMapWrapper = styled.div``;
+export const RoadMapWrapper = styled.div`
+  margin: 0 140px;
+`;
 
 export const RoadMapContainer = styled.div`
   display: grid;
@@ -11,13 +13,12 @@ export const RoadMapContainer = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
   /* border-radius: 30px; */
-  margin: 0;
 `;
 
 export const RoadMapContent = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 `;
 
 export const RoadMapTitleContainer = styled.div``;
@@ -25,14 +26,14 @@ export const RoadMapTitleContainer = styled.div``;
 export const RoadMapTitle = styled.h2`
   font-style: normal;
   font-weight: 500;
-  font-size: 80px;
+  font-size: 40px;
   color: #ffffff;
   margin: 0px;
 `;
 
 export const RoadMapSubTitle = styled.p`
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   color: #ffffff;
   margin: 0px;
 `;
