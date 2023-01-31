@@ -217,11 +217,12 @@ export const YearsRoadMapSubTitle = styled.h4`
   margin: 0;
 `;
 
-export const YearsRoadMapBody = styled.p`
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  text-align: right;
-  margin: 0;
+export const YearsRoadMapBody = styled.div`
+  display: flex;
+  justify-content: end;
+`;
+
+export const YearsRoadMapBodyText = styled.p`
+  max-width: 372px;
   color: rgba(255, 255, 255, 0.39);
 `;

@@ -29,6 +29,7 @@ import {
   Twitter,
   TwitterLink,
   YearsRoadMapBody,
+  YearsRoadMapBodyText,
   YearsRoadMapRight,
   YearsRoadMapSubTitle,
   YearsRoadMapTitle,
@@ -97,8 +98,10 @@ const Home = () => {
         <YearsRoadMapTitle>2022</YearsRoadMapTitle>
         <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
         <YearsRoadMapBody>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          id purus augue. Lorem ipsum dolor{" "}
+          <YearsRoadMapBodyText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            id purus augue. Lorem ipsum dolor
+          </YearsRoadMapBodyText>
         </YearsRoadMapBody>
       </YearsRoadMapRight>
     </>
