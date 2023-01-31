@@ -97,10 +97,10 @@ const Home = () => {
         </RoadMapImageContainer>
       </RoadMapContainer>
       <YearsRoadMapRight>
-        <YearsRoadMapContent>
-          <YearsRoadMapTitle>2022</YearsRoadMapTitle>
-          <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
-          <YearsRoadMapBody>
+        <YearsRoadMapContent left={false}>
+          <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={false}>
             <YearsRoadMapBodyText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
@@ -109,8 +109,56 @@ const Home = () => {
         </YearsRoadMapContent>
       </YearsRoadMapRight>
       <YearsRoadMapLeft>
-        <YearsRoadMapContent>
-          <YearsRoadMapTitle left>2022</YearsRoadMapTitle>
+        <YearsRoadMapContent left={true}>
+          <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapContent>
+      </YearsRoadMapLeft>
+      <YearsRoadMapRight>
+        <YearsRoadMapContent left={false}>
+          <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={false}>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapContent>
+      </YearsRoadMapRight>
+      <YearsRoadMapLeft>
+        <YearsRoadMapContent left={true}>
+          <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapContent>
+      </YearsRoadMapLeft>
+      <YearsRoadMapRight>
+        <YearsRoadMapContent left={false}>
+          <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={false}>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapContent>
+      </YearsRoadMapRight>
+      <YearsRoadMapLeft>
+        <YearsRoadMapContent left={true}>
+          <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
           <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
           <YearsRoadMapBody left>
             <YearsRoadMapBodyText>
