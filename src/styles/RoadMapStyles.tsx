@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Props } from "../types/interfaces";
-import roadMapMainImage from "../assets/roadmapMainImage.png";
+import roadMapMainImage from "../assets/roadMapMainImage.png";
 import left1 from "../assets/left1.png";
 
 export const RoadMapWrapper = styled.div``;
