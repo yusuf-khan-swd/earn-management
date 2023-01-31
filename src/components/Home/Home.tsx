@@ -31,6 +31,7 @@ import {
   YearsRoadMapBody,
   YearsRoadMapBodyText,
   YearsRoadMapRight,
+  YearsRoadMapRightContent,
   YearsRoadMapSubTitle,
   YearsRoadMapTitle,
 } from "../../styles";
@@ -95,14 +96,16 @@ const Home = () => {
         </RoadMapImageContainer>
       </RoadMapContainer>
       <YearsRoadMapRight>
-        <YearsRoadMapTitle>2022</YearsRoadMapTitle>
-        <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
-        <YearsRoadMapBody>
-          <YearsRoadMapBodyText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            id purus augue. Lorem ipsum dolor
-          </YearsRoadMapBodyText>
-        </YearsRoadMapBody>
+        <YearsRoadMapRightContent>
+          <YearsRoadMapTitle>2022</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapRightContent>
       </YearsRoadMapRight>
     </>
   );

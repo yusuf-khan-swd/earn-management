@@ -201,6 +201,10 @@ export const YearsRoadMapRight = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 `;
 
+export const YearsRoadMapRightContent = styled.div`
+  margin-right: 20px;
+`;
+
 export const YearsRoadMapTitle = styled.h3`
   font-size: 71px;
   line-height: 89px;
@@ -225,4 +229,5 @@ export const YearsRoadMapBody = styled.div`
 export const YearsRoadMapBodyText = styled.p`
   max-width: 372px;
   color: rgba(255, 255, 255, 0.39);
+  text-align: right;
 `;
