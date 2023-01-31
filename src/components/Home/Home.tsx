@@ -35,6 +35,8 @@ import {
   YearsRoadMapContent,
   YearsRoadMapSubTitle,
   YearsRoadMapTitle,
+  YearsImageContainer,
+  YearsImage,
 } from "../../styles";
 
 const Home = () => {
@@ -91,6 +93,21 @@ const Home = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </RoadMapSubTitle>
           </RoadMapTitleContainer>
+          <YearsRoadMapLeft style={{ border: "none" }}>
+            <YearsRoadMapContent left={true}>
+              <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
+              <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
+              <YearsRoadMapBody left>
+                <YearsRoadMapBodyText>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse id purus augue. Lorem ipsum dolor
+                </YearsRoadMapBodyText>
+              </YearsRoadMapBody>
+            </YearsRoadMapContent>
+            <YearsImageContainer>
+              <YearsImage></YearsImage>
+            </YearsImageContainer>
+          </YearsRoadMapLeft>
         </RoadMapContent>
         <RoadMapImageContainer>
           <RoadMapMainImage></RoadMapMainImage>

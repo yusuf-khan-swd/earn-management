@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import btnPng from "../assets/btnPng.png";
 import logo from "../assets/logo.png";
+import { Props } from "../types/interfaces";
 import bannerImage from "../assets/banner.png";
 import discordImage from "../assets/discord.png";
 import twitterImage from "../assets/twitter.png";
 import roadMapMainImage from "../assets/roadmapMainImage.png";
-import { Props } from "../types/interfaces";
+import left1 from "../assets/left1.png";
 
 export const Navbar = styled.nav`
   font-size: 15px;
@@ -200,6 +201,27 @@ export const RoadMapMainImage = styled.img.attrs(() => ({
 export const YearsRoadMapRight = styled.div`
   border-right: 3px solid rgba(255, 255, 255, 0.12);
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-radius: 30px; */
+`;
+
+export const YearsRoadMapLeft = styled.div`
+  border-left: 3px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-radius: 30px; */
+  border-radius: 0 0 0 30px;
+  position: relative;
+`;
+
+export const YearsImageContainer = styled.div`
+  position: absolute;
+  top: 0;
+  left: -100px;
+`;
+
+export const YearsImage = styled.img.attrs(() => ({
+  src: left1,
+}))`
+  max-width: 200px;
 `;
 
 export const YearsRoadMapContent = styled.div<Props>`
@@ -231,9 +253,4 @@ export const YearsRoadMapBodyText = styled.p`
   max-width: 372px;
   color: rgba(255, 255, 255, 0.39);
   text-align: right;
-`;
-
-export const YearsRoadMapLeft = styled.div`
-  border-left: 3px solid rgba(255, 255, 255, 0.12);
-  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 `;
