@@ -91,6 +91,7 @@ export const BannerBody = styled.p`
   font-weight: 400;
   font-size: 20px;
   color: white;
+  margin-bottom: 30px;
 `;
 
 export const InputContainer = styled.div`
