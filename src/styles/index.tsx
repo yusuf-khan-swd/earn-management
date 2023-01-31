@@ -152,8 +152,10 @@ export const BannerImage = styled.img.attrs(() => ({
 export const RoadMapContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* border: 3px solid rgba(255, 255, 255, 0.12); */
-  margin: 0 80px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+  border-left: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-radius: 30px; */
+  margin: 0;
 `;
 
 export const RoadMapContent = styled.div`
@@ -189,4 +191,36 @@ export const RoadMapImageContainer = styled.div`
 
 export const RoadMapMainImage = styled.img.attrs(() => ({
   src: roadMapMainImage,
-}))``;
+}))`
+  width: 100%;
+`;
+
+export const YearsRoadMapRight = styled.div`
+  border-right: 3px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+`;
+
+export const YearsRoadMapTitle = styled.h3`
+  font-size: 71px;
+  line-height: 89px;
+  text-align: right;
+  color: #ffffff;
+  margin: 0;
+`;
+
+export const YearsRoadMapSubTitle = styled.h4`
+  font-weight: 500;
+  font-size: 33px;
+  text-align: right;
+  color: #15c4c6;
+  margin: 0;
+`;
+
+export const YearsRoadMapBody = styled.p`
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: right;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.39);
+`;

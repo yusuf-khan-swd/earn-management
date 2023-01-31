@@ -28,6 +28,10 @@ import {
   SelectOption,
   Twitter,
   TwitterLink,
+  YearsRoadMapBody,
+  YearsRoadMapRight,
+  YearsRoadMapSubTitle,
+  YearsRoadMapTitle,
 } from "../../styles";
 
 const Home = () => {
@@ -89,6 +93,14 @@ const Home = () => {
           <RoadMapMainImage></RoadMapMainImage>
         </RoadMapImageContainer>
       </RoadMapContainer>
+      <YearsRoadMapRight>
+        <YearsRoadMapTitle>2022</YearsRoadMapTitle>
+        <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
+        <YearsRoadMapBody>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          id purus augue. Lorem ipsum dolor{" "}
+        </YearsRoadMapBody>
+      </YearsRoadMapRight>
     </>
   );
 };
