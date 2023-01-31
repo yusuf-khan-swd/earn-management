@@ -5,6 +5,7 @@ import bannerImage from "../assets/banner.png";
 import discordImage from "../assets/discord.png";
 import twitterImage from "../assets/twitter.png";
 import roadMapMainImage from "../assets/roadmapMainImage.png";
+import { Props } from "../types/interfaces";
 
 export const Navbar = styled.nav`
   font-size: 15px;
@@ -201,11 +202,11 @@ export const YearsRoadMapRight = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 `;
 
-export const YearsRoadMapContent = styled.div`
-  margin: ${(props) => (props.left ? "20px" : "0 20px")};
+export const YearsRoadMapContent = styled.div<Props>`
+  margin: ${(props) => (props.left ? "0 20px" : "0 20px")};
 `;
 
-export const YearsRoadMapTitle = styled.h3`
+export const YearsRoadMapTitle = styled.h3<Props>`
   font-size: 71px;
   line-height: 89px;
   text-align: ${(props) => (props.left ? "left" : "right")};
@@ -213,7 +214,7 @@ export const YearsRoadMapTitle = styled.h3`
   margin: 0;
 `;
 
-export const YearsRoadMapSubTitle = styled.h4`
+export const YearsRoadMapSubTitle = styled.h4<Props>`
   font-weight: 500;
   font-size: 33px;
   text-align: ${(props) => (props.left ? "left" : "right")};
@@ -221,7 +222,7 @@ export const YearsRoadMapSubTitle = styled.h4`
   margin: 0;
 `;
 
-export const YearsRoadMapBody = styled.div`
+export const YearsRoadMapBody = styled.div<Props>`
   display: flex;
   justify-content: ${(props) => (props.left ? "start" : "end")};
 `;
