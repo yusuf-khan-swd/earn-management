@@ -201,14 +201,14 @@ export const YearsRoadMapRight = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 `;
 
-export const YearsRoadMapRightContent = styled.div`
-  margin-right: 20px;
+export const YearsRoadMapContent = styled.div`
+  margin: ${(props) => (props.left ? "20px" : "0 20px")};
 `;
 
 export const YearsRoadMapTitle = styled.h3`
   font-size: 71px;
   line-height: 89px;
-  text-align: right;
+  text-align: ${(props) => (props.left ? "left" : "right")};
   color: #ffffff;
   margin: 0;
 `;
@@ -216,18 +216,23 @@ export const YearsRoadMapTitle = styled.h3`
 export const YearsRoadMapSubTitle = styled.h4`
   font-weight: 500;
   font-size: 33px;
-  text-align: right;
+  text-align: ${(props) => (props.left ? "left" : "right")};
   color: #15c4c6;
   margin: 0;
 `;
 
 export const YearsRoadMapBody = styled.div`
   display: flex;
-  justify-content: end;
+  justify-content: ${(props) => (props.left ? "start" : "end")};
 `;
 
 export const YearsRoadMapBodyText = styled.p`
   max-width: 372px;
   color: rgba(255, 255, 255, 0.39);
   text-align: right;
+`;
+
+export const YearsRoadMapLeft = styled.div`
+  border-left: 3px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
 `;

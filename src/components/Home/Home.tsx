@@ -30,8 +30,9 @@ import {
   TwitterLink,
   YearsRoadMapBody,
   YearsRoadMapBodyText,
+  YearsRoadMapLeft,
   YearsRoadMapRight,
-  YearsRoadMapRightContent,
+  YearsRoadMapContent,
   YearsRoadMapSubTitle,
   YearsRoadMapTitle,
 } from "../../styles";
@@ -96,7 +97,7 @@ const Home = () => {
         </RoadMapImageContainer>
       </RoadMapContainer>
       <YearsRoadMapRight>
-        <YearsRoadMapRightContent>
+        <YearsRoadMapContent>
           <YearsRoadMapTitle>2022</YearsRoadMapTitle>
           <YearsRoadMapSubTitle>Q2</YearsRoadMapSubTitle>
           <YearsRoadMapBody>
@@ -105,8 +106,20 @@ const Home = () => {
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
           </YearsRoadMapBody>
-        </YearsRoadMapRightContent>
+        </YearsRoadMapContent>
       </YearsRoadMapRight>
+      <YearsRoadMapLeft>
+        <YearsRoadMapContent>
+          <YearsRoadMapTitle left>2022</YearsRoadMapTitle>
+          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left>
+            <YearsRoadMapBodyText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id purus augue. Lorem ipsum dolor
+            </YearsRoadMapBodyText>
+          </YearsRoadMapBody>
+        </YearsRoadMapContent>
+      </YearsRoadMapLeft>
     </>
   );
 };
