@@ -78,7 +78,7 @@ export const YearsImageContainer = styled.div<Props>`
   position: absolute;
   top: 22px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
-  right: ${(props) => (!props.left ? "-120px" : "auto")};
+  right: ${(props) => (!props.left ? "-110px" : "auto")};
 `;
 
 export const YearsImage = styled.img`
@@ -86,7 +86,7 @@ export const YearsImage = styled.img`
 `;
 
 export const YearsRoadMapContent = styled.div<Props>`
-  margin: ${(props) => (props.left ? "0 90px" : "0 90px")};
+  margin: ${(props) => (props.left ? "0 110px" : "0 125px")};
   padding-bottom: 30px;
   padding-top: 15px;
 `;
@@ -96,7 +96,7 @@ export const YearsRoadMapTitle = styled.h3<Props>`
   font-weight: normal;
   text-align: ${(props) => (props.left ? "left" : "right")};
   color: #ffffff;
-  margin: 0;
+  margin-bottom: 8px;
 `;
 
 export const YearsRoadMapSubTitle = styled.h4<Props>`
@@ -104,7 +104,7 @@ export const YearsRoadMapSubTitle = styled.h4<Props>`
   font-size: 33px;
   text-align: ${(props) => (props.left ? "left" : "right")};
   color: #15c4c6;
-  margin: 0;
+  margin-bottom: 8px;
 `;
 
 export const YearsRoadMapBody = styled.div<Props>`
