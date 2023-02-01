@@ -5,16 +5,14 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import RoadMap from "./RoadMap";
 
-const Home = () => {
-  return (
-    <>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <RoadMap></RoadMap>
-      <Contact></Contact>
-      <Footer></Footer>
-    </>
-  );
-};
+const Home = () => (
+  <>
+    <Navbar></Navbar>
+    <Banner></Banner>
+    <RoadMap></RoadMap>
+    <Contact></Contact>
+    <Footer></Footer>
+  </>
+);
 
 export default Home;

@@ -16,31 +16,29 @@ import logo from "../assets/logo.png";
 import discordImage from "../assets/discord.png";
 import twitterImage from "../assets/twitter.png";
 
-const Navbar = () => {
-  return (
-    <NavbarWrapper>
-      <NavLogo src={logo}></NavLogo>
-      <MenuContainer>
-        <MenuItems>
-          <MenuItemsLink>Road Map</MenuItemsLink>
-        </MenuItems>
-        <MenuItems>
-          <MenuItemsLink>Contact</MenuItemsLink>
-        </MenuItems>
-        <MenuItems>
-          <MenuItemsLink>Blog</MenuItemsLink>
-        </MenuItems>
-      </MenuContainer>
-      <NavSocialMediaContainer>
-        <DiscordLink>
-          <Discord src={discordImage}></Discord>
-        </DiscordLink>
-        <TwitterLink>
-          <Twitter src={twitterImage}></Twitter>
-        </TwitterLink>
-      </NavSocialMediaContainer>
-    </NavbarWrapper>
-  );
-};
+const Navbar = () => (
+  <NavbarWrapper>
+    <NavLogo src={logo}></NavLogo>
+    <MenuContainer>
+      <MenuItems>
+        <MenuItemsLink>Road Map</MenuItemsLink>
+      </MenuItems>
+      <MenuItems>
+        <MenuItemsLink>Contact</MenuItemsLink>
+      </MenuItems>
+      <MenuItems>
+        <MenuItemsLink>Blog</MenuItemsLink>
+      </MenuItems>
+    </MenuContainer>
+    <NavSocialMediaContainer>
+      <DiscordLink>
+        <Discord src={discordImage}></Discord>
+      </DiscordLink>
+      <TwitterLink>
+        <Twitter src={twitterImage}></Twitter>
+      </TwitterLink>
+    </NavSocialMediaContainer>
+  </NavbarWrapper>
+);
 
 export default Navbar;
