@@ -5,6 +5,7 @@ import {
   ContactContainer,
   ContactFormContainer,
   ContactHeadingContainer,
+  ContactInput,
   ContactInputContainer,
   ContactSubTitle,
   ContactTitle,
@@ -33,7 +34,20 @@ const Contact = () => {
               <Country>UA</Country> +1 (872) 288 9283
             </PhoneNumber>
           </ContactAddressContainer>
-          <ContactInputContainer></ContactInputContainer>
+          <ContactInputContainer>
+            <ContactInput
+              type={"text"}
+              placeholder={"Your name"}
+            ></ContactInput>
+            <ContactInput
+              type={"email"}
+              placeholder={"Your Email Address"}
+            ></ContactInput>
+            <ContactInput
+              type={"text"}
+              placeholder={"Describe Your Need"}
+            ></ContactInput>
+          </ContactInputContainer>
         </ContactFormContainer>
       </ContactBody>
     </ContactContainer>
