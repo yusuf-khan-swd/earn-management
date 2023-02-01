@@ -34,7 +34,7 @@ const RoadMap = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </RoadMapSubTitle>
             </RoadMapTitleContainer>
-            <YearsRoadMapLeft style={{ border: "none" }}>
+            <YearsRoadMapLeft border={false}>
               <YearsRoadMapContent left={true}>
                 <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
                 <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -66,7 +66,7 @@ const RoadMap = () => {
             </YearsRoadMapBody>
           </YearsRoadMapContent>
         </YearsRoadMapRight>
-        <YearsRoadMapLeft>
+        <YearsRoadMapLeft border={true}>
           <YearsRoadMapContent left={true}>
             <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -90,7 +90,7 @@ const RoadMap = () => {
             </YearsRoadMapBody>
           </YearsRoadMapContent>
         </YearsRoadMapRight>
-        <YearsRoadMapLeft>
+        <YearsRoadMapLeft border={true}>
           <YearsRoadMapContent left={true}>
             <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -114,7 +114,7 @@ const RoadMap = () => {
             </YearsRoadMapBody>
           </YearsRoadMapContent>
         </YearsRoadMapRight>
-        <YearsRoadMapLeft>
+        <YearsRoadMapLeft border={true}>
           <YearsRoadMapContent left={true}>
             <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>

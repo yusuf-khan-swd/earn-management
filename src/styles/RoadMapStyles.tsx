@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Props } from "../types/interfaces";
+import { BorderProps, Props } from "../types/interfaces";
 import roadMapMainImage from "../assets/roadMapMainImage.png";
 
 export const RoadMapTopBorder = styled.div`
@@ -65,15 +65,21 @@ export const RoadMapMainImage = styled.img.attrs(() => ({
 
 export const YearsRoadMapRight = styled.div`
   border-right: 3px solid rgba(255, 255, 255, 0.12);
-  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-bottom: 3px solid rgba(255, 255, 255, 0.12); */
+  /* border-radius: 30px; */
+  /* border-right: 3px solid rgba(255, 255, 255, 0.12); */
   /* border-radius: 30px; */
 `;
 
-export const YearsRoadMapLeft = styled.div`
-  border-left: 3px solid rgba(255, 255, 255, 0.12);
-  border-bottom: 3px solid rgba(255, 255, 255, 0.12);
+export const YearsRoadMapLeft = styled.div<BorderProps>`
+  border-left: ${(props) =>
+    props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
+  border-bottom: ${(props) =>
+    props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
+  border-top: ${(props) =>
+    props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
+  /* border-radius: 30px 0 0 30px; */
   /* border-radius: 30px; */
-  border-radius: 0 0 0 30px;
   position: relative;
 `;
 
