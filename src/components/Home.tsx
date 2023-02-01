@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Navbar from "./Navbar";
 import RoadMap from "./RoadMap";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <RoadMap></RoadMap>
+      <Contact></Contact>
     </>
   );
 };
