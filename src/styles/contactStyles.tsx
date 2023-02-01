@@ -67,6 +67,7 @@ export const ImageContainer = styled.div`
 
 export const ImageWrapper = styled.div`
   max-width: 126px;
+  cursor: pointer;
 `;
 
 export const SubmitButtonImage = styled.img.attrs(({ src }) => ({
