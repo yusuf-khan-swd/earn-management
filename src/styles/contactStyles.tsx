@@ -59,17 +59,20 @@ export const ContactInput = styled.input`
   color: white;
 `;
 
-export const ImageContainer = styled.div`
+export const SubmitButtonContainer = styled.div`
   display: flex;
   justify-content: end;
   align-items: flex-end;
+  margin-top: -30px;
+  padding-bottom: 50px;
 `;
 
-export const ImageWrapper = styled.div`
-  max-width: 126px;
+export const SubmitButton = styled.button`
+  background: linear-gradient(180deg, #107bee 0%, #359dfd 100%);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 40px 25px;
+  border-radius: 50%;
   cursor: pointer;
-`;
-
-export const SubmitButtonImage = styled.img`
-  width: 100%;
 `;
