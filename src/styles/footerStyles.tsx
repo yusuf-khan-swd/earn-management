@@ -28,13 +28,19 @@ export const FooterSocialContainer = styled.div`
   display: flex;
 `;
 
-export const FooterSocialLeft = styled.div``;
+export const FooterSocialLeftSide = styled.div``;
 
 export const SocialContent = styled.div`
-  color: #5865f2;
+  color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 `;
 
-export const SocialIcon = styled.img``;
+export const SocialIcon = styled.img`
+  margin-right: 8px;
+`;
+
+export const FooterSocialRightSide = styled.div``;
+
+export const FooterDiscordBigImage = styled.img``;

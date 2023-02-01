@@ -5,14 +5,18 @@ import {
   SocialIcon,
   FooterSiteMapContainer,
   FooterSocialContainer,
-  FooterSocialLeft,
+  FooterSocialLeftSide,
   FooterWrapper,
   SiteMapColumn,
   SiteMapData,
   SiteMapTitle,
+  FooterSocialRightSide,
+  FooterDiscordBigImage,
 } from "../styles/footerStyles";
 
 import footerDiscord from "../assets/footer-discord.png";
+import mobileIcon from "../assets/mobile-icon.png";
+import footerDiscordBigImage from "../assets/footer-discord-big-image.png";
 
 const Footer = () => (
   <FooterWrapper>
@@ -41,12 +45,21 @@ const Footer = () => (
         </SiteMapColumn>
       </FooterSiteMapContainer>
       <FooterSocialContainer>
-        <FooterSocialLeft>
+        <FooterSocialLeftSide>
           <SocialContent>
             <SocialIcon src={footerDiscord}></SocialIcon>
             Join us on Discord
           </SocialContent>
-        </FooterSocialLeft>
+          <SocialContent>
+            <SocialIcon src={mobileIcon}></SocialIcon>
+            (239) 555-0193
+          </SocialContent>
+        </FooterSocialLeftSide>
+        <FooterSocialRightSide>
+          <FooterDiscordBigImage
+            src={footerDiscordBigImage}
+          ></FooterDiscordBigImage>
+        </FooterSocialRightSide>
       </FooterSocialContainer>
     </FooterContainer>
   </FooterWrapper>
