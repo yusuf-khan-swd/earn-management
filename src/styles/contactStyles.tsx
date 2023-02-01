@@ -58,3 +58,19 @@ export const ContactInput = styled.input.attrs(({ type, placeholder }) => ({
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
   margin-bottom: 25px;
 `;
+
+export const ImageContainer = styled.div`
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+`;
+
+export const ImageWrapper = styled.div`
+  max-width: 126px;
+`;
+
+export const SubmitButtonImage = styled.img.attrs(({ src }) => ({
+  src: src,
+}))`
+  width: 100%;
+`;

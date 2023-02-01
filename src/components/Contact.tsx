@@ -11,8 +11,13 @@ import {
   ContactTitle,
   Country,
   PhoneNumber,
+  ImageWrapper,
+  SubmitButtonImage,
   WebsiteLink,
+  ImageContainer,
 } from "../styles/contactStyles";
+
+import submitImage from "../assets/submit-button.png";
 
 const Contact = () => {
   return (
@@ -50,6 +55,11 @@ const Contact = () => {
           </ContactInputContainer>
         </ContactFormContainer>
       </ContactBody>
+      <ImageContainer>
+        <ImageWrapper>
+          <SubmitButtonImage src={submitImage}></SubmitButtonImage>
+        </ImageWrapper>
+      </ImageContainer>
     </ContactContainer>
   );
 };
