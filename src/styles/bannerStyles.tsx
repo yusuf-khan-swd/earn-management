@@ -13,15 +13,14 @@ export const BannerWrapper = styled.div`
 export const BannerContentSection = styled.div``;
 
 export const BannerTitle = styled.h1`
-  margin-top: 60px;
+  margin-top: 66px;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 51px;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 `;
 
 export const BannerBody = styled.p`
-  font-weight: 400;
   font-size: 15px;
   color: white;
   margin-bottom: 30px;
