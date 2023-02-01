@@ -16,8 +16,6 @@ import {
   SubmitButtonContainer,
 } from "../styles/contactStyles";
 
-import submitImage from "../assets/submit-button.png";
-
 const Contact = () => (
   <ContactContainer>
     <ContactBody>
