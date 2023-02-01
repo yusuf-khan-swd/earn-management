@@ -1,4 +1,5 @@
 import React from "react";
+import { MaxContainer } from "../styles";
 import Banner from "./Banner";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -7,10 +8,12 @@ import RoadMap from "./RoadMap";
 
 const Home = () => (
   <>
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <RoadMap></RoadMap>
-    <Contact></Contact>
+    <MaxContainer>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <RoadMap></RoadMap>
+      <Contact></Contact>
+    </MaxContainer>
     <Footer></Footer>
   </>
 );
