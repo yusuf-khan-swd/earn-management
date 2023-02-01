@@ -15,8 +15,8 @@ import {
   SelectOption,
 } from "../styles/bannerStyles";
 
-import btnPng from "../../assets/btnPng.png";
-import bannerImage from "../../assets/banner.png";
+import btnPng from "../assets/btnPng.png";
+import bannerImage from "../assets/banner.png";
 
 const Banner = () => {
   return (
