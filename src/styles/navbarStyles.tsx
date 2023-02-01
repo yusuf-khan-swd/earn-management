@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import discordImage from "../assets/discord.png";
-import twitterImage from "../assets/twitter.png";
 
 export const NavbarWrapper = styled.nav`
   font-size: 15px;
@@ -51,8 +49,8 @@ export const DiscordLink = styled.a.attrs(() => ({
   color: white;
 `;
 
-export const Discord = styled.img.attrs(() => ({
-  src: discordImage,
+export const Discord = styled.img.attrs(({ src }) => ({
+  src: src,
 }))``;
 
 export const TwitterLink = styled.a.attrs(() => ({
@@ -61,6 +59,6 @@ export const TwitterLink = styled.a.attrs(() => ({
   font-size: 20px;
   color: white;
 `;
-export const Twitter = styled.img.attrs(() => ({
-  src: twitterImage,
+export const Twitter = styled.img.attrs(({ src }) => ({
+  src: src,
 }))``;

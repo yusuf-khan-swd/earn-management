@@ -11,7 +11,10 @@ import {
   Twitter,
   TwitterLink,
 } from "../../styles/navbarStyles";
+
 import logo from "../../assets/logo.png";
+import discordImage from "../../assets/discord.png";
+import twitterImage from "../../assets/twitter.png";
 
 const Navbar = () => {
   return (
@@ -30,10 +33,10 @@ const Navbar = () => {
       </MenuContainer>
       <NavSocialMediaContainer>
         <DiscordLink>
-          <Discord></Discord>
+          <Discord src={discordImage}></Discord>
         </DiscordLink>
         <TwitterLink>
-          <Twitter></Twitter>
+          <Twitter src={twitterImage}></Twitter>
         </TwitterLink>
       </NavSocialMediaContainer>
     </NavbarWrapper>
