@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { CardPositionProps } from "../types/interfaces";
 
 export const BannerWrapper = styled.div`
   display: grid;
@@ -74,9 +75,29 @@ export const BannerImageSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 `;
+
 export const BannerImage = styled.img.attrs(({ src }) => ({
   src: src,
 }))`
   width: 100%;
+`;
+
+export const CardContainer = styled.div<CardPositionProps>`
+  position: absolute;
+  top: ${(props) => props.top};
+  right: ${(props) => props.right};
+  bottom: ${(props) => props.bottom};
+  left: ${(props) => props.left};
+  max-width: 220px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(40px);
+  border-radius: 90px;
+  padding: 10px 20px;
+`;
+
+export const CardBody = styled.p`
+  color: white;
+  font-size: 14px;
 `;

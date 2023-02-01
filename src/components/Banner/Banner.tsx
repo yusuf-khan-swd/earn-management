@@ -7,6 +7,8 @@ import {
   BannerTitle,
   BannerWrapper,
   ButtonIcon,
+  CardBody,
+  CardContainer,
   InputContainer,
   InputEmail,
   Select,
@@ -37,6 +39,9 @@ const Banner = () => {
       </BannerContentSection>
       <BannerImageSection>
         <BannerImage src={bannerImage}></BannerImage>
+        <CardContainer top="20px" left="20px" right="auto" bottom="auto">
+          <CardBody>Automate payments for quick transparent cashout?</CardBody>
+        </CardContainer>
       </BannerImageSection>
     </BannerWrapper>
   );
