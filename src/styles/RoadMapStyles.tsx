@@ -3,6 +3,13 @@ import { Props } from "../types/interfaces";
 import roadMapMainImage from "../assets/roadMapMainImage.png";
 import left1 from "../assets/left1.png";
 
+export const RoadMapTopBorder = styled.div`
+  border-top: 3px solid rgba(255, 255, 255, 0.12);
+  width: 142px;
+  border-radius: 30px;
+  margin-bottom: -1px;
+`;
+
 export const RoadMapWrapper = styled.div`
   margin: 0 140px;
 `;
