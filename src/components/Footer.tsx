@@ -10,18 +10,21 @@ import {
   SiteMapColumn,
   SiteMapData,
   SiteMapTitle,
-  FooterSocialRightSide,
-  FooterDiscordBigImage,
+  FooterBigDiscordContainer,
+  DiscordJoiningButton,
   FooterIconWrapper,
   SmallTwitter,
   SmallDiscord,
+  BigDiscordImageWrapper,
+  DiscordButtonImage,
+  DiscordContent,
 } from "../styles/footerStyles";
 
 import footerDiscord from "../assets/footer-discord.png";
 import mobileIcon from "../assets/mobile-icon.png";
 import smallTwitter from "../assets/small-twitter.png";
 import smallDiscord from "../assets/small-discord.png";
-import footerDiscordBigImage from "../assets/footer-discord-big-image.png";
+import discordButtonImage from "../assets/discord-image-button-icon.png";
 
 const Footer = () => (
   <FooterWrapper>
@@ -64,13 +67,16 @@ const Footer = () => (
             <SmallDiscord src={smallTwitter} />
           </FooterIconWrapper>
         </FooterSocialLeftSide>
-        <FooterSocialRightSide>
-          <FooterDiscordBigImage
-            src={footerDiscordBigImage}
-          ></FooterDiscordBigImage>
-        </FooterSocialRightSide>
       </FooterSocialContainer>
     </FooterContainer>
+    <BigDiscordImageWrapper>
+      <FooterBigDiscordContainer>
+        <DiscordJoiningButton>
+          <DiscordButtonImage src={discordButtonImage}></DiscordButtonImage>
+          <DiscordContent>Join Discord</DiscordContent>
+        </DiscordJoiningButton>
+      </FooterBigDiscordContainer>
+    </BigDiscordImageWrapper>
   </FooterWrapper>
 );
 
