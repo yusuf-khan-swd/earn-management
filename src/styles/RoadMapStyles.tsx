@@ -85,7 +85,7 @@ export const YearsRoadMapLeft = styled.div<BorderProps>`
 
 export const YearsImageContainer = styled.div<Props>`
   position: absolute;
-  top: 15px;
+  top: 22px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
   right: ${(props) => (!props.left ? "-120px" : "auto")};
 `;
@@ -98,7 +98,8 @@ export const YearsImage = styled.img.attrs((props) => ({
 
 export const YearsRoadMapContent = styled.div<Props>`
   margin: ${(props) => (props.left ? "0 90px" : "0 90px")};
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 15px;
 `;
 
 export const YearsRoadMapTitle = styled.h3<Props>`
