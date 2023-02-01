@@ -18,10 +18,13 @@ export const RoadMapContainer = styled.div`
 export const RoadMapContent = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  /* justify-content: center; */
 `;
 
-export const RoadMapTitleContainer = styled.div``;
+export const RoadMapTitleContainer = styled.div`
+  margin-left: 20px;
+  margin-bottom: 60px;
+`;
 
 export const RoadMapTitle = styled.h2`
   font-style: normal;
@@ -44,6 +47,7 @@ export const RoadMapImageContainer = styled.div`
     rgba(0, 56, 255, 0.24) 0%,
     rgba(0, 133, 255, 0) 100%
   );
+  max-width: 460px;
 `;
 
 export const RoadMapMainImage = styled.img.attrs(() => ({
