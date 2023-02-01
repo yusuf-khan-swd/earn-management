@@ -13,7 +13,7 @@ import {
   InputEmail,
   Select,
   SelectOption,
-} from "../../styles/bannerStyles";
+} from "../styles/bannerStyles";
 
 import btnPng from "../../assets/btnPng.png";
 import bannerImage from "../../assets/banner.png";

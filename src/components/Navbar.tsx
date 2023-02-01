@@ -10,7 +10,7 @@ import {
   NavSocialMediaContainer,
   Twitter,
   TwitterLink,
-} from "../../styles/navbarStyles";
+} from "../styles/navbarStyles";
 
 import logo from "../../assets/logo.png";
 import discordImage from "../../assets/discord.png";

@@ -18,7 +18,7 @@ import {
   YearsRoadMapBody,
   RoadMapWrapper,
   RoadMapTopBorder,
-} from "../../styles/RoadMapStyles";
+} from "../styles/RoadMapStyles";
 import roadMapMainImage from "../../assets/roadMapMainImage.png";
 import primaryIcon from "../../assets/primaryIcon.png";
 import secondaryIcon from "../../assets/secondaryIcon.png";

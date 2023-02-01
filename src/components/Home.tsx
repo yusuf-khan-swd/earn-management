@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../Banner/Banner";
-import Navbar from "../Navbar/Navbar";
-import RoadMap from "../RoadMap/RoadMap";
+import Banner from "./Banner";
+import Navbar from "./Navbar";
+import RoadMap from "./RoadMap";
 
 const Home = () => {
   return (
