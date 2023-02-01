@@ -19,6 +19,7 @@ import {
   RoadMapWrapper,
   RoadMapTopBorder,
 } from "../../styles/RoadMapStyles";
+import left1 from "../../assets/left1.png";
 
 const RoadMap = () => {
   return (
@@ -45,7 +46,7 @@ const RoadMap = () => {
                 </YearsRoadMapBody>
               </YearsRoadMapContent>
               <YearsImageContainer>
-                <YearsImage></YearsImage>
+                <YearsImage src={left1}></YearsImage>
               </YearsImageContainer>
             </YearsRoadMapLeft>
           </RoadMapContent>

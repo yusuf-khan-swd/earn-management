@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Props } from "../types/interfaces";
 import roadMapMainImage from "../assets/roadMapMainImage.png";
-import left1 from "../assets/left1.png";
 
 export const RoadMapTopBorder = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.12);
@@ -84,8 +83,8 @@ export const YearsImageContainer = styled.div`
   left: -120px;
 `;
 
-export const YearsImage = styled.img.attrs(() => ({
-  src: left1,
+export const YearsImage = styled.img.attrs((props) => ({
+  src: props.src,
 }))`
   max-width: 200px;
 `;
