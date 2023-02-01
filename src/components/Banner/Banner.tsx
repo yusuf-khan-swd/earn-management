@@ -14,6 +14,7 @@ import {
 } from "../../styles/bannerStyles";
 
 import btnPng from "../../assets/btnPng.png";
+import bannerImage from "../../assets/banner.png";
 
 const Banner = () => {
   return (
@@ -35,7 +36,7 @@ const Banner = () => {
         </InputContainer>
       </BannerContentSection>
       <BannerImageSection>
-        <BannerImage></BannerImage>
+        <BannerImage src={bannerImage}></BannerImage>
       </BannerImageSection>
     </BannerWrapper>
   );

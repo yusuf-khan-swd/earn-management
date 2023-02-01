@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import bannerImage from "../assets/banner.png";
 
 export const BannerWrapper = styled.div`
   display: grid;
@@ -76,8 +75,8 @@ export const BannerImageSection = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export const BannerImage = styled.img.attrs(() => ({
-  src: bannerImage,
+export const BannerImage = styled.img.attrs(({ src }) => ({
+  src: src,
 }))`
   width: 100%;
 `;
