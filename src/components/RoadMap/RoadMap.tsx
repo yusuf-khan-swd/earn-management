@@ -33,9 +33,9 @@ const RoadMap = () => {
           <YearsRoadMapLeft style={{ border: "none" }}>
             <YearsRoadMapContent left={true}>
               <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-              <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
-              <YearsRoadMapBody left>
-                <YearsRoadMapBodyText>
+              <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
+              <YearsRoadMapBody left={true}>
+                <YearsRoadMapBodyText left={true}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse id purus augue. Lorem ipsum dolor
                 </YearsRoadMapBodyText>
@@ -55,7 +55,7 @@ const RoadMap = () => {
           <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
           <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
           <YearsRoadMapBody left={false}>
-            <YearsRoadMapBodyText>
+            <YearsRoadMapBodyText left={false}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
@@ -65,9 +65,9 @@ const RoadMap = () => {
       <YearsRoadMapLeft>
         <YearsRoadMapContent left={true}>
           <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
-          <YearsRoadMapBody left>
-            <YearsRoadMapBodyText>
+          <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={true}>
+            <YearsRoadMapBodyText left={true}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
@@ -79,7 +79,7 @@ const RoadMap = () => {
           <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
           <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
           <YearsRoadMapBody left={false}>
-            <YearsRoadMapBodyText>
+            <YearsRoadMapBodyText left={false}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
@@ -89,9 +89,9 @@ const RoadMap = () => {
       <YearsRoadMapLeft>
         <YearsRoadMapContent left={true}>
           <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
-          <YearsRoadMapBody left>
-            <YearsRoadMapBodyText>
+          <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={true}>
+            <YearsRoadMapBodyText left={true}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
@@ -103,7 +103,7 @@ const RoadMap = () => {
           <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
           <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
           <YearsRoadMapBody left={false}>
-            <YearsRoadMapBodyText>
+            <YearsRoadMapBodyText left={false}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
@@ -113,9 +113,9 @@ const RoadMap = () => {
       <YearsRoadMapLeft>
         <YearsRoadMapContent left={true}>
           <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-          <YearsRoadMapSubTitle left>Q2</YearsRoadMapSubTitle>
-          <YearsRoadMapBody left>
-            <YearsRoadMapBodyText>
+          <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
+          <YearsRoadMapBody left={true}>
+            <YearsRoadMapBodyText left={true}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse id purus augue. Lorem ipsum dolor
             </YearsRoadMapBodyText>
