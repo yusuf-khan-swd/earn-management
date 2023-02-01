@@ -39,7 +39,10 @@ const Banner = () => {
       </BannerContentSection>
       <BannerImageSection>
         <BannerImage src={bannerImage}></BannerImage>
-        <CardContainer top="20px" left="20px" right="auto" bottom="auto">
+        <CardContainer top="110px" left="20px" right="auto" bottom="auto">
+          <CardBody>Automate payments for quick transparent cashout?</CardBody>
+        </CardContainer>
+        <CardContainer top="auto" left="50px" right="auto" bottom="120px">
           <CardBody>Automate payments for quick transparent cashout?</CardBody>
         </CardContainer>
       </BannerImageSection>
