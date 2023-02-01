@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../assets/logo.png";
 import discordImage from "../assets/discord.png";
 import twitterImage from "../assets/twitter.png";
 
@@ -12,8 +11,8 @@ export const NavbarWrapper = styled.nav`
   margin: 0 auto;
 `;
 
-export const NavLogo = styled.img.attrs(() => ({
-  src: logo,
+export const NavLogo = styled.img.attrs(({ src }) => ({
+  src: src,
 }))`
   max-width: 70px;
   margin: 8px;
