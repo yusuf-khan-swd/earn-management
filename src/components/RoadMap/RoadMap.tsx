@@ -81,6 +81,9 @@ const RoadMap = () => {
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
+          <YearsImageContainer left={true}>
+            <YearsImage src={secondaryIcon}></YearsImage>
+          </YearsImageContainer>
         </YearsRoadMapLeft>
         <YearsRoadMapRight>
           <YearsRoadMapContent left={false}>
@@ -92,6 +95,39 @@ const RoadMap = () => {
                 Suspendisse id purus augue. Lorem ipsum dolor
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
+          </YearsRoadMapContent>
+          <YearsImageContainer left={false}>
+            <YearsImage src={secondaryIcon}></YearsImage>
+          </YearsImageContainer>
+        </YearsRoadMapRight>
+        <YearsRoadMapLeft border={true}>
+          <YearsRoadMapContent left={true}>
+            <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
+            <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
+            <YearsRoadMapBody left={true}>
+              <YearsRoadMapBodyText left={true}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse id purus augue. Lorem ipsum dolor
+              </YearsRoadMapBodyText>
+            </YearsRoadMapBody>
+          </YearsRoadMapContent>
+          <YearsImageContainer left={true}>
+            <YearsImage src={secondaryIcon}></YearsImage>
+          </YearsImageContainer>
+        </YearsRoadMapLeft>
+        <YearsRoadMapRight>
+          <YearsRoadMapContent left={false}>
+            <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
+            <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
+            <YearsRoadMapBody left={false}>
+              <YearsRoadMapBodyText left={false}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse id purus augue. Lorem ipsum dolor
+              </YearsRoadMapBodyText>
+            </YearsRoadMapBody>
+            <YearsImageContainer left={false}>
+              <YearsImage src={secondaryIcon}></YearsImage>
+            </YearsImageContainer>
           </YearsRoadMapContent>
         </YearsRoadMapRight>
         <YearsRoadMapLeft border={true}>
@@ -105,30 +141,9 @@ const RoadMap = () => {
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
-        </YearsRoadMapLeft>
-        <YearsRoadMapRight>
-          <YearsRoadMapContent left={false}>
-            <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
-            <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
-            <YearsRoadMapBody left={false}>
-              <YearsRoadMapBodyText left={false}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse id purus augue. Lorem ipsum dolor
-              </YearsRoadMapBodyText>
-            </YearsRoadMapBody>
-          </YearsRoadMapContent>
-        </YearsRoadMapRight>
-        <YearsRoadMapLeft border={true}>
-          <YearsRoadMapContent left={true}>
-            <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-            <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
-            <YearsRoadMapBody left={true}>
-              <YearsRoadMapBodyText left={true}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse id purus augue. Lorem ipsum dolor
-              </YearsRoadMapBodyText>
-            </YearsRoadMapBody>
-          </YearsRoadMapContent>
+          <YearsImageContainer left={true}>
+            <YearsImage src={secondaryIcon}></YearsImage>
+          </YearsImageContainer>
         </YearsRoadMapLeft>
       </RoadMapWrapper>
     </>
