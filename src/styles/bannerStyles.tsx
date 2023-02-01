@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import btnPng from "../assets/btnPng.png";
 import bannerImage from "../assets/banner.png";
 
 export const BannerWrapper = styled.div`
@@ -60,8 +59,8 @@ export const SelectOption = styled.option.attrs(() => ({
   value: "0",
 }))``;
 
-export const ButtonIcon = styled.img.attrs(() => ({
-  src: btnPng,
+export const ButtonIcon = styled.img.attrs(({ src }) => ({
+  src: src,
 }))`
   max-width: 50px;
   margin-right: 2px;

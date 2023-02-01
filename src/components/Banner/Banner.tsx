@@ -13,6 +13,8 @@ import {
   SelectOption,
 } from "../../styles/bannerStyles";
 
+import btnPng from "../../assets/btnPng.png";
+
 const Banner = () => {
   return (
     <BannerWrapper>
@@ -29,7 +31,7 @@ const Banner = () => {
             <SelectOption>Owner</SelectOption>
             <SelectOption>Audi</SelectOption>
           </Select>
-          <ButtonIcon></ButtonIcon>
+          <ButtonIcon src={btnPng}></ButtonIcon>
         </InputContainer>
       </BannerContentSection>
       <BannerImageSection>
