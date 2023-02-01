@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { BorderProps, Props } from "../types/interfaces";
-import roadMapMainImage from "../assets/roadMapMainImage.png";
 
 export const RoadMapTopBorder = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.12);
@@ -20,7 +19,6 @@ export const RoadMapContainer = styled.div`
   border-left: 3px solid rgba(255, 255, 255, 0.12);
   /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
   border-bottom-left-radius: 30px;
-  /* border-bottom-right-radius: 30px; */
 `;
 
 export const RoadMapContent = styled.div`
@@ -58,8 +56,8 @@ export const RoadMapImageContainer = styled.div`
   max-width: 460px;
 `;
 
-export const RoadMapMainImage = styled.img.attrs(() => ({
-  src: roadMapMainImage,
+export const RoadMapMainImage = styled.img.attrs(({ src }) => ({
+  src: src,
 }))`
   width: 100%;
 `;
