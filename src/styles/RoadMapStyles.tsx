@@ -7,7 +7,7 @@ export const RoadMapTopBorder = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.12);
   width: 142px;
   border-radius: 30px;
-  margin-bottom: -1px;
+  margin-bottom: -0.5px;
 `;
 
 export const RoadMapWrapper = styled.div`
@@ -19,6 +19,7 @@ export const RoadMapContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
   /* border-radius: 30px; */
 `;
 

@@ -23,7 +23,7 @@ import {
 const RoadMap = () => {
   return (
     <>
-      <RoadMapTopBorder></RoadMapTopBorder>
+      {/* <RoadMapTopBorder></RoadMapTopBorder> */}
       <RoadMapWrapper>
         <RoadMapContainer>
           <RoadMapContent>
