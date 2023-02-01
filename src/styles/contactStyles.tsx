@@ -43,6 +43,7 @@ export const PhoneNumber = styled.p`
 
 export const Country = styled.span`
   color: #6c6c6c;
+  margin-right: 5px;
 `;
 
 export const ContactInputContainer = styled.div``;
