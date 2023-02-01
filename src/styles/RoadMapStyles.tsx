@@ -19,7 +19,8 @@ export const RoadMapContainer = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
   /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
-  /* border-radius: 30px; */
+  border-bottom-left-radius: 30px;
+  /* border-bottom-right-radius: 30px; */
 `;
 
 export const RoadMapContent = styled.div`
@@ -64,24 +65,24 @@ export const RoadMapMainImage = styled.img.attrs(() => ({
 `;
 
 export const YearsRoadMapRight = styled.div`
-  border-right: 3px solid rgba(255, 255, 255, 0.12);
   position: relative;
-  /* border-bottom: 3px solid rgba(255, 255, 255, 0.12); */
-  /* border-radius: 30px; */
+  border-right: 3px solid rgba(255, 255, 255, 0.12);
+  /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
   /* border-right: 3px solid rgba(255, 255, 255, 0.12); */
   /* border-radius: 30px; */
 `;
 
 export const YearsRoadMapLeft = styled.div<BorderProps>`
+  position: relative;
   border-left: ${(props) =>
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
   border-bottom: ${(props) =>
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
   border-top: ${(props) =>
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
-  /* border-radius: 30px 0 0 30px; */
+  border-radius: 30px 0 0 30px;
   /* border-radius: 30px; */
-  position: relative;
+  /* border-top-right-radius: 30px; */
 `;
 
 export const YearsImageContainer = styled.div<Props>`
@@ -89,7 +90,6 @@ export const YearsImageContainer = styled.div<Props>`
   top: 15px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
   right: ${(props) => (!props.left ? "-120px" : "auto")};
-  /* left: -120px; */
 `;
 
 export const YearsImage = styled.img.attrs((props) => ({
