@@ -131,21 +131,6 @@ const RoadMap = () => {
             </YearsImageContainer>
           </YearsRoadMapContent>
         </YearsRoadMapRight>
-        <YearsRoadMapLeft border={true}>
-          <YearsRoadMapContent left={true}>
-            <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
-            <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
-            <YearsRoadMapBody left={true}>
-              <YearsRoadMapBodyText left={true}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse id purus augue. Lorem ipsum dolor
-              </YearsRoadMapBodyText>
-            </YearsRoadMapBody>
-          </YearsRoadMapContent>
-          <YearsImageContainer left={true}>
-            <YearsImage src={secondaryIcon}></YearsImage>
-          </YearsImageContainer>
-        </YearsRoadMapLeft>
       </RoadMapWrapper>
     </>
   );
