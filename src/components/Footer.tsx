@@ -12,10 +12,15 @@ import {
   SiteMapTitle,
   FooterSocialRightSide,
   FooterDiscordBigImage,
+  FooterIconWrapper,
+  SmallTwitter,
+  SmallDiscord,
 } from "../styles/footerStyles";
 
 import footerDiscord from "../assets/footer-discord.png";
 import mobileIcon from "../assets/mobile-icon.png";
+import smallTwitter from "../assets/small-twitter.png";
+import smallDiscord from "../assets/small-discord.png";
 import footerDiscordBigImage from "../assets/footer-discord-big-image.png";
 
 const Footer = () => (
@@ -37,7 +42,7 @@ const Footer = () => (
           <SiteMapData>Contact</SiteMapData>
         </SiteMapColumn>
         <SiteMapColumn>
-          <SiteMapTitle>Fingertip</SiteMapTitle>
+          <SiteMapTitle>About</SiteMapTitle>
           <SiteMapData>Home</SiteMapData>
           <SiteMapData>Blog</SiteMapData>
           <SiteMapData>RoadMap</SiteMapData>
@@ -54,6 +59,10 @@ const Footer = () => (
             <SocialIcon src={mobileIcon}></SocialIcon>
             (239) 555-0193
           </SocialContent>
+          <FooterIconWrapper>
+            <SmallTwitter src={smallDiscord} />
+            <SmallDiscord src={smallTwitter} />
+          </FooterIconWrapper>
         </FooterSocialLeftSide>
         <FooterSocialRightSide>
           <FooterDiscordBigImage

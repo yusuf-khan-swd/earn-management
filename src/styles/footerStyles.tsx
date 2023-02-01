@@ -41,6 +41,18 @@ export const SocialIcon = styled.img`
   margin-right: 8px;
 `;
 
+export const FooterIconWrapper = styled.div`
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+`;
+
+export const SmallTwitter = styled.img`
+  margin-right: 28px;
+`;
+
+export const SmallDiscord = styled.img``;
+
 export const FooterSocialRightSide = styled.div``;
 
 export const FooterDiscordBigImage = styled.img``;
