@@ -58,6 +58,8 @@ export const ContactInput = styled.input.attrs(({ type, placeholder }) => ({
   margin-left: 4px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
   margin-bottom: 25px;
+  outline: none;
+  color: white;
 `;
 
 export const ImageContainer = styled.div`
