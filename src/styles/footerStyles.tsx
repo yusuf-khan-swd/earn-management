@@ -8,6 +8,7 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 50px 150px;
 `;
 
 export const FooterSiteMapContainer = styled.div`
@@ -24,9 +25,7 @@ export const SiteMapTitle = styled.h3`
 
 export const SiteMapData = styled.p``;
 
-export const FooterSocialContainer = styled.div`
-  display: flex;
-`;
+export const FooterSocialContainer = styled.div``;
 
 export const FooterSocialLeftSide = styled.div``;
 
@@ -53,6 +52,28 @@ export const SmallTwitter = styled.img`
 
 export const SmallDiscord = styled.img``;
 
-export const FooterSocialRightSide = styled.div``;
+export const BigDiscordImageWrapper = styled.div`
+  display: flex;
+  justify-content: end;
+`;
 
-export const FooterDiscordBigImage = styled.img``;
+export const FooterBigDiscordContainer = styled.div``;
+
+export const DiscordJoiningButton = styled.button`
+  margin-top: -90px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+`;
+
+export const DiscordButtonImage = styled.img``;
+
+export const DiscordContent = styled.span``;
