@@ -39,11 +39,19 @@ const Banner = () => {
       </BannerContentSection>
       <BannerImageSection>
         <BannerImage src={bannerImage}></BannerImage>
-        <CardContainer top="110px" left="20px" right="auto" bottom="auto">
+        <CardContainer top="120px" right="auto" bottom="auto" left="20px">
           <CardBody>Automate payments for quick transparent cashout?</CardBody>
         </CardContainer>
-        <CardContainer top="auto" left="50px" right="auto" bottom="120px">
-          <CardBody>Automate payments for quick transparent cashout?</CardBody>
+        <CardContainer top="auto" right="auto" bottom="120px" left="50px">
+          <CardBody>
+            All on one platform that doesn’t lag? You’re Kidding?
+          </CardBody>
+        </CardContainer>
+        <CardContainer top="80px" right="-20px" bottom="auto" left="auto">
+          <CardBody>You mean, i can track my scholars’ performance</CardBody>
+        </CardContainer>
+        <CardContainer top="auto" right="-20px" bottom="120px" left="auto">
+          <CardBody>Search and Breed Axies and NFTs</CardBody>
         </CardContainer>
       </BannerImageSection>
     </BannerWrapper>
