@@ -47,10 +47,7 @@ export const Country = styled.span`
 
 export const ContactInputContainer = styled.div``;
 
-export const ContactInput = styled.input.attrs(({ type, placeholder }) => ({
-  type: type,
-  placeholder: placeholder,
-}))`
+export const ContactInput = styled.input`
   border: none;
   padding: 12px 0px;
   width: 100%;
@@ -73,8 +70,6 @@ export const ImageWrapper = styled.div`
   cursor: pointer;
 `;
 
-export const SubmitButtonImage = styled.img.attrs(({ src }) => ({
-  src: src,
-}))`
+export const SubmitButtonImage = styled.img`
   width: 100%;
 `;

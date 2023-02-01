@@ -21,20 +21,20 @@ const Navbar = () => (
     <NavLogo src={logo}></NavLogo>
     <MenuContainer>
       <MenuItems>
-        <MenuItemsLink>Road Map</MenuItemsLink>
+        <MenuItemsLink href="#">Road Map</MenuItemsLink>
       </MenuItems>
       <MenuItems>
-        <MenuItemsLink>Contact</MenuItemsLink>
+        <MenuItemsLink href="#">Contact</MenuItemsLink>
       </MenuItems>
       <MenuItems>
-        <MenuItemsLink>Blog</MenuItemsLink>
+        <MenuItemsLink href="#">Blog</MenuItemsLink>
       </MenuItems>
     </MenuContainer>
     <NavSocialMediaContainer>
-      <DiscordLink>
+      <DiscordLink href="#">
         <Discord src={discordImage}></Discord>
       </DiscordLink>
-      <TwitterLink>
+      <TwitterLink href="#">
         <Twitter src={twitterImage}></Twitter>
       </TwitterLink>
     </NavSocialMediaContainer>

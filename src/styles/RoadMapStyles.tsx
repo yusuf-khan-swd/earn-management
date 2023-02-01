@@ -54,9 +54,7 @@ export const RoadMapImageContainer = styled.div`
   max-width: 460px;
 `;
 
-export const RoadMapMainImage = styled.img.attrs(({ src }) => ({
-  src: src,
-}))`
+export const RoadMapMainImage = styled.img`
   width: 100%;
 `;
 
@@ -83,9 +81,7 @@ export const YearsImageContainer = styled.div<Props>`
   right: ${(props) => (!props.left ? "-120px" : "auto")};
 `;
 
-export const YearsImage = styled.img.attrs((props) => ({
-  src: props.src,
-}))`
+export const YearsImage = styled.img`
   max-width: 200px;
 `;
 

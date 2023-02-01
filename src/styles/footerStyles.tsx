@@ -37,6 +37,4 @@ export const SocialContent = styled.div`
   align-items: center;
 `;
 
-export const SocialIcon = styled.img.attrs((props) => ({
-  src: props.src,
-}))``;
+export const SocialIcon = styled.img``;

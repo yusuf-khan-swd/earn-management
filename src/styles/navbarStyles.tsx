@@ -9,9 +9,7 @@ export const NavbarWrapper = styled.nav`
   margin: 0 auto;
 `;
 
-export const NavLogo = styled.img.attrs(({ src }) => ({
-  src: src,
-}))`
+export const NavLogo = styled.img`
   max-width: 70px;
   margin: 8px;
 `;
@@ -24,9 +22,7 @@ export const MenuItems = styled.li`
   margin-right: 31px;
 `;
 
-export const MenuItemsLink = styled.a.attrs(() => ({
-  href: "/#",
-}))`
+export const MenuItemsLink = styled.a`
   color: white;
   text-decoration: none;
 `;
@@ -41,24 +37,16 @@ export const NavSocialMediaContainer = styled.div`
   align-items: center;
 `;
 
-export const DiscordLink = styled.a.attrs(() => ({
-  href: "#",
-}))`
+export const DiscordLink = styled.a`
   font-size: 20px;
   margin-right: 29px;
   color: white;
 `;
 
-export const Discord = styled.img.attrs(({ src }) => ({
-  src: src,
-}))``;
+export const Discord = styled.img``;
 
-export const TwitterLink = styled.a.attrs(() => ({
-  href: "#",
-}))`
+export const TwitterLink = styled.a`
   font-size: 20px;
   color: white;
 `;
-export const Twitter = styled.img.attrs(({ src }) => ({
-  src: src,
-}))``;
+export const Twitter = styled.img``;
