@@ -17,14 +17,12 @@ export const RoadMapContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
-  /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
   border-bottom-left-radius: 30px;
 `;
 
 export const RoadMapContent = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 `;
 
 export const RoadMapTitleContainer = styled.div`
@@ -65,9 +63,6 @@ export const RoadMapMainImage = styled.img.attrs(({ src }) => ({
 export const YearsRoadMapRight = styled.div`
   position: relative;
   border-right: 3px solid rgba(255, 255, 255, 0.12);
-  /* border-top: 3px solid rgba(255, 255, 255, 0.12); */
-  /* border-right: 3px solid rgba(255, 255, 255, 0.12); */
-  /* border-radius: 30px; */
 `;
 
 export const YearsRoadMapLeft = styled.div<BorderProps>`
@@ -79,8 +74,6 @@ export const YearsRoadMapLeft = styled.div<BorderProps>`
   border-top: ${(props) =>
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
   border-radius: 30px 0 0 30px;
-  /* border-radius: 30px; */
-  /* border-top-right-radius: 30px; */
 `;
 
 export const YearsImageContainer = styled.div<Props>`
