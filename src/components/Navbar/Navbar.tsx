@@ -11,11 +11,12 @@ import {
   Twitter,
   TwitterLink,
 } from "../../styles/navbarStyles";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
     <NavbarWrapper>
-      <NavLogo></NavLogo>
+      <NavLogo src={logo}></NavLogo>
       <MenuContainer>
         <MenuItems>
           <MenuItemsLink>Road Map</MenuItemsLink>
