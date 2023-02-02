@@ -27,10 +27,13 @@ const Banner = () => (
         mattis hendrerit. Praesent vel risus in risus vestibulum aliquet.
       </BannerBody>
       <InputContainer>
-        <InputEmail></InputEmail>
+        <InputEmail
+          type="email"
+          placeholder="Enter you Email Address"
+        ></InputEmail>
         <Select>
-          <SelectOption>Owner</SelectOption>
-          <SelectOption>Audi</SelectOption>
+          <SelectOption value="owner">Owner</SelectOption>
+          <SelectOption value="audit">Audi</SelectOption>
         </Select>
         <ButtonIcon src={btnPng} alt=""></ButtonIcon>
       </InputContainer>

@@ -36,10 +36,7 @@ export const InputContainer = styled.div`
   max-width: 400px;
 `;
 
-export const InputEmail = styled.input.attrs(() => ({
-  type: "email",
-  placeholder: "Enter you Email Address",
-}))`
+export const InputEmail = styled.input`
   border: none;
   padding: 12px 0px;
   width: 60%;
@@ -59,13 +56,9 @@ export const Select = styled.select`
     margin-left: 10px;
   }
 `;
-export const SelectOption = styled.option.attrs(() => ({
-  value: "0",
-}))``;
+export const SelectOption = styled.option``;
 
-export const ButtonIcon = styled.img.attrs(({ src }) => ({
-  src: src,
-}))`
+export const ButtonIcon = styled.img`
   max-width: 50px;
   margin-right: 2px;
 `;
@@ -82,9 +75,7 @@ export const BannerImageSection = styled.div`
   position: relative;
 `;
 
-export const BannerImage = styled.img.attrs(({ src }) => ({
-  src: src,
-}))`
+export const BannerImage = styled.img`
   width: 100%;
 `;
 
