@@ -96,6 +96,10 @@ export const CardContainer = styled.div<CardPositionProps>`
   backdrop-filter: blur(40px);
   border-radius: 90px;
   padding: 10px 20px;
+
+  @media (max-width: 768px) {
+    visibility: hidden;
+  }
 `;
 
 export const CardBody = styled.p`
