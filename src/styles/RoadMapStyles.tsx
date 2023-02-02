@@ -67,6 +67,9 @@ export const YearsRoadMapRight = styled.div`
   position: relative;
   border-right: 3px solid rgba(255, 255, 255, 0.12);
   border-radius: 30px;
+  margin-right: -14px;
+  margin-top: -5px;
+  margin-bottom: -6px;
 `;
 
 export const YearsRoadMapLeft = styled.div<BorderProps>`
