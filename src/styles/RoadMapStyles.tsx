@@ -1,11 +1,23 @@
 import styled from "styled-components";
 import { BorderProps, Props } from "../types/interfaces";
 
-export const RoadMapWrapper = styled.div`
-  margin: 0 140px;
+export const RoadMapContainer = styled.div`
+  display: grid;
+  grid-template-columns: 140px auto 140px;
 `;
 
-export const RoadMapContainer = styled.div`
+export const RoadMapLeftSide = styled.div`
+  border-top: 3px solid rgba(255, 255, 255, 0.178);
+  border-top-right-radius: 30px;
+  margin-right: -4px;
+  margin-top: -16px;
+`;
+
+export const RoadMapRightSide = styled.div``;
+
+export const RoadMapMainContainer = styled.div``;
+
+export const RoadMapMain = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
