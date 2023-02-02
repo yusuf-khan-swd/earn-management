@@ -32,11 +32,11 @@ const Banner = () => (
           <SelectOption>Owner</SelectOption>
           <SelectOption>Audi</SelectOption>
         </Select>
-        <ButtonIcon src={btnPng}></ButtonIcon>
+        <ButtonIcon src={btnPng} alt=""></ButtonIcon>
       </InputContainer>
     </BannerContentSection>
     <BannerImageSection>
-      <BannerImage src={bannerImage}></BannerImage>
+      <BannerImage src={bannerImage} alt=""></BannerImage>
       <CardContainer top="120px" right="auto" bottom="auto" left="20px">
         <CardBody>Automate payments for quick transparent cashout?</CardBody>
       </CardContainer>
