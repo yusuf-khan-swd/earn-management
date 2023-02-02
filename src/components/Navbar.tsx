@@ -12,9 +12,9 @@ import {
   TwitterLink,
 } from "../styles/navbarStyles";
 
-import logo from "../assets/logo.png";
-import discordImage from "../assets/discord.png";
-import twitterImage from "../assets/twitter.png";
+import logo from "../assets/images/logo.png";
+import discordImage from "../assets/images/discord.png";
+import twitterImage from "../assets/images/twitter.png";
 
 const Navbar = () => (
   <NavbarWrapper>

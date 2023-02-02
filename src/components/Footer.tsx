@@ -20,11 +20,11 @@ import {
   DiscordContent,
 } from "../styles/footerStyles";
 
-import footerDiscord from "../assets/footer-discord.png";
-import mobileIcon from "../assets/mobile-icon.png";
-import smallTwitter from "../assets/small-twitter.png";
-import smallDiscord from "../assets/small-discord.png";
-import discordButtonImage from "../assets/discord-image-button-icon.png";
+import footerDiscord from "../assets/images/footer-discord.png";
+import mobileIcon from "../assets/images/mobile-icon.png";
+import smallTwitter from "../assets/images/small-twitter.png";
+import smallDiscord from "../assets/images/small-discord.png";
+import discordButtonImage from "../assets/images/discord-image-button-icon.png";
 
 const Footer = () => (
   <FooterWrapper>

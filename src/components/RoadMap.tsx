@@ -19,9 +19,10 @@ import {
   RoadMapWrapper,
   RoadMapTopBorder,
 } from "../styles/RoadMapStyles";
-import roadMapMainImage from "../assets/roadMapMainImage.png";
-import primaryIcon from "../assets/primaryIcon.png";
-import secondaryIcon from "../assets/secondaryIcon.png";
+
+import roadMapMainImage from "../assets/images/roadMapMainImage.png";
+import primaryIcon from "../assets/images/primaryIcon.png";
+import secondaryIcon from "../assets/images/secondaryIcon.png";
 
 const RoadMap = () => (
   <>
