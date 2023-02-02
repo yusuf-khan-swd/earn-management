@@ -17,7 +17,6 @@ import {
   YearsImage,
   YearsRoadMapBody,
   RoadMapWrapper,
-  RoadMapTopBorder,
 } from "../styles/RoadMapStyles";
 
 import roadMapMainImage from "../assets/images/roadMapMainImage.png";
@@ -26,7 +25,6 @@ import secondaryIcon from "../assets/images/secondaryIcon.png";
 
 const RoadMap = () => (
   <>
-    {/* <RoadMapTopBorder></RoadMapTopBorder> */}
     <RoadMapWrapper>
       <RoadMapContainer>
         <RoadMapContent>

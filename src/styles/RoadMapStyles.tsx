@@ -1,13 +1,6 @@
 import styled from "styled-components";
 import { BorderProps, Props } from "../types/interfaces";
 
-export const RoadMapTopBorder = styled.div`
-  border-top: 3px solid rgba(255, 255, 255, 0.12);
-  width: 142px;
-  border-radius: 30px;
-  margin-bottom: -0.5px;
-`;
-
 export const RoadMapWrapper = styled.div`
   margin: 0 140px;
 `;
@@ -61,6 +54,7 @@ export const RoadMapMainImage = styled.img`
 export const YearsRoadMapRight = styled.div`
   position: relative;
   border-right: 3px solid rgba(255, 255, 255, 0.12);
+  border-radius: 30px;
 `;
 
 export const YearsRoadMapLeft = styled.div<BorderProps>`
