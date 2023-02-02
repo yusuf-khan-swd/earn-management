@@ -45,6 +45,9 @@ export const InputEmail = styled.input.attrs(() => ({
   width: 60%;
   background: transparent;
   margin-left: 4px;
+  outline: none;
+  color: white;
+  padding-left: 12px;
 `;
 
 export const Select = styled.select`
