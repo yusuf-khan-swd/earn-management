@@ -72,8 +72,11 @@ export const SubmitButton = styled.button`
   background: linear-gradient(180deg, #107bee 0%, #359dfd 100%);
   border: none;
   color: white;
-  font-size: 20px;
-  padding: 40px 25px;
+  font-size: 18px;
+  height: 156px;
+  width: 156px;
+  padding: 8px;
   border-radius: 50%;
   cursor: pointer;
+  font-weight: 500;
 `;

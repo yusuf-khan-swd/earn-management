@@ -43,7 +43,7 @@ const Contact = () => (
       </ContactFormContainer>
     </ContactBody>
     <SubmitButtonContainer>
-      <SubmitButton>Submit</SubmitButton>
+      <SubmitButton>Submit Request</SubmitButton>
     </SubmitButtonContainer>
   </ContactContainer>
 );
