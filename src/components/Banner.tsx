@@ -27,19 +27,16 @@ const Banner = () => (
         mattis hendrerit. Praesent vel risus in risus vestibulum aliquet.
       </BannerBody>
       <InputContainer>
-        <InputEmail
-          type="email"
-          placeholder="Enter you Email Address"
-        ></InputEmail>
+        <InputEmail type="email" placeholder="Enter you Email Address" />
         <Select>
           <SelectOption value="owner">Owner</SelectOption>
           <SelectOption value="audit">Audi</SelectOption>
         </Select>
-        <ButtonIcon src={btnPng} alt=""></ButtonIcon>
+        <ButtonIcon src={btnPng} alt="" />
       </InputContainer>
     </BannerContentSection>
     <BannerImageSection>
-      <BannerImage src={bannerImage} alt=""></BannerImage>
+      <BannerImage src={bannerImage} alt="" />
       <CardContainer top="120px" right="auto" bottom="auto" left="20px">
         <CardBody>Automate payments for quick transparent cashout?</CardBody>
       </CardContainer>

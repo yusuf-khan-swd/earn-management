@@ -36,15 +36,9 @@ const Contact = () => (
           </PhoneNumber>
         </ContactAddressContainer>
         <ContactInputContainer>
-          <ContactInput type={"text"} placeholder={"Your name"}></ContactInput>
-          <ContactInput
-            type={"email"}
-            placeholder={"Your Email Address"}
-          ></ContactInput>
-          <ContactInput
-            type={"text"}
-            placeholder={"Describe Your Need"}
-          ></ContactInput>
+          <ContactInput type="text" placeholder="Your name" />
+          <ContactInput type="email" placeholder="Your Email Address" />
+          <ContactInput type="text" placeholder="Describe Your Need" />
         </ContactInputContainer>
       </ContactFormContainer>
     </ContactBody>

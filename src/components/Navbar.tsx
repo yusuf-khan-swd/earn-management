@@ -18,7 +18,7 @@ import twitterImage from "../assets/images/twitter.png";
 
 const Navbar = () => (
   <NavbarWrapper>
-    <NavLogo src={logo} alt=""></NavLogo>
+    <NavLogo src={logo} alt="" />
     <MenuContainer>
       <MenuItems>
         <MenuItemsLink href="#">Road Map</MenuItemsLink>
@@ -32,10 +32,10 @@ const Navbar = () => (
     </MenuContainer>
     <NavSocialMediaContainer>
       <DiscordLink href="#">
-        <Discord src={discordImage} alt=""></Discord>
+        <Discord src={discordImage} alt="" />
       </DiscordLink>
       <TwitterLink href="#">
-        <Twitter src={twitterImage} alt=""></Twitter>
+        <Twitter src={twitterImage} alt="" />
       </TwitterLink>
     </NavSocialMediaContainer>
   </NavbarWrapper>

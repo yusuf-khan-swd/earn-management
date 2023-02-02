@@ -55,11 +55,11 @@ const Footer = () => (
       <FooterSocialContainer>
         <FooterSocialLeftSide>
           <SocialContent>
-            <SocialIcon src={footerDiscord} alt=""></SocialIcon>
+            <SocialIcon src={footerDiscord} alt="" />
             Join us on Discord
           </SocialContent>
           <SocialContent>
-            <SocialIcon src={mobileIcon} alt=""></SocialIcon>
+            <SocialIcon src={mobileIcon} alt="" />
             (239) 555-0193
           </SocialContent>
           <FooterIconWrapper>
@@ -72,10 +72,7 @@ const Footer = () => (
     <BigDiscordImageWrapper>
       <FooterBigDiscordContainer>
         <DiscordJoiningButton>
-          <DiscordButtonImage
-            src={discordButtonImage}
-            alt=""
-          ></DiscordButtonImage>
+          <DiscordButtonImage src={discordButtonImage} alt="" />
           <DiscordContent>Join Discord</DiscordContent>
         </DiscordJoiningButton>
       </FooterBigDiscordContainer>

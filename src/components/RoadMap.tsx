@@ -51,7 +51,7 @@ const RoadMap = () => (
           </YearsRoadMapLeft>
         </RoadMapContent>
         <RoadMapImageContainer>
-          <RoadMapMainImage src={roadMapMainImage} alt=""></RoadMapMainImage>
+          <RoadMapMainImage src={roadMapMainImage} alt="" />
         </RoadMapImageContainer>
       </RoadMapContainer>
       <YearsRoadMapRight>
@@ -66,7 +66,7 @@ const RoadMap = () => (
           </YearsRoadMapBody>
         </YearsRoadMapContent>
         <YearsImageContainer left={false}>
-          <YearsImage src={secondaryIcon} alt=""></YearsImage>
+          <YearsImage src={secondaryIcon} alt="" />
         </YearsImageContainer>
       </YearsRoadMapRight>
       <YearsRoadMapLeft border={true}>
@@ -81,7 +81,7 @@ const RoadMap = () => (
           </YearsRoadMapBody>
         </YearsRoadMapContent>
         <YearsImageContainer left={true}>
-          <YearsImage src={secondaryIcon} alt=""></YearsImage>
+          <YearsImage src={secondaryIcon} alt="" />
         </YearsImageContainer>
       </YearsRoadMapLeft>
       <YearsRoadMapRight>
@@ -96,7 +96,7 @@ const RoadMap = () => (
           </YearsRoadMapBody>
         </YearsRoadMapContent>
         <YearsImageContainer left={false}>
-          <YearsImage src={secondaryIcon} alt=""></YearsImage>
+          <YearsImage src={secondaryIcon} alt="" />
         </YearsImageContainer>
       </YearsRoadMapRight>
       <YearsRoadMapLeft border={true}>
@@ -111,7 +111,7 @@ const RoadMap = () => (
           </YearsRoadMapBody>
         </YearsRoadMapContent>
         <YearsImageContainer left={true}>
-          <YearsImage src={secondaryIcon} alt=""></YearsImage>
+          <YearsImage src={secondaryIcon} alt="" />
         </YearsImageContainer>
       </YearsRoadMapLeft>
       <YearsRoadMapRight>
@@ -125,7 +125,7 @@ const RoadMap = () => (
             </YearsRoadMapBodyText>
           </YearsRoadMapBody>
           <YearsImageContainer left={false}>
-            <YearsImage src={secondaryIcon} alt=""></YearsImage>
+            <YearsImage src={secondaryIcon} alt="" />
           </YearsImageContainer>
         </YearsRoadMapContent>
       </YearsRoadMapRight>
