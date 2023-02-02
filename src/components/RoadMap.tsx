@@ -2,19 +2,19 @@ import React from "react";
 import {
   RoadMapMain,
   RoadMapContent,
-  RoadMapImageContainer,
+  RoadMapMainImageContainer,
   RoadMapMainImage,
   RoadMapSubTitle,
   RoadMapTitle,
   RoadMapTitleContainer,
   YearsRoadMapBodyText,
-  YearsRoadMapLeft,
-  YearsRoadMapRight,
+  RoadMapLeft,
+  RoadMapRight,
   YearsRoadMapContent,
   YearsRoadMapSubTitle,
   YearsRoadMapTitle,
-  YearsImageContainer,
-  YearsImage,
+  RoadMapImageContainer,
+  RoadMapImage,
   YearsRoadMapBody,
   RoadMapMainContainer,
   RoadMapContainer,
@@ -39,7 +39,7 @@ const RoadMap = () => (
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </RoadMapSubTitle>
             </RoadMapTitleContainer>
-            <YearsRoadMapLeft border={false}>
+            <RoadMapLeft border={false}>
               <YearsRoadMapContent left={true}>
                 <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
                 <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -50,16 +50,16 @@ const RoadMap = () => (
                   </YearsRoadMapBodyText>
                 </YearsRoadMapBody>
               </YearsRoadMapContent>
-              <YearsImageContainer left={true}>
-                <YearsImage src={primaryIcon} alt=""></YearsImage>
-              </YearsImageContainer>
-            </YearsRoadMapLeft>
+              <RoadMapImageContainer left={true}>
+                <RoadMapImage src={primaryIcon} alt=""></RoadMapImage>
+              </RoadMapImageContainer>
+            </RoadMapLeft>
           </RoadMapContent>
-          <RoadMapImageContainer>
+          <RoadMapMainImageContainer>
             <RoadMapMainImage src={roadMapMainImage} alt="" />
-          </RoadMapImageContainer>
+          </RoadMapMainImageContainer>
         </RoadMapMain>
-        <YearsRoadMapRight>
+        <RoadMapRight>
           <YearsRoadMapContent left={false}>
             <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
@@ -70,11 +70,11 @@ const RoadMap = () => (
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
-          <YearsImageContainer left={false}>
-            <YearsImage src={secondaryIcon} alt="" />
-          </YearsImageContainer>
-        </YearsRoadMapRight>
-        <YearsRoadMapLeft border={true}>
+          <RoadMapImageContainer left={false}>
+            <RoadMapImage src={secondaryIcon} alt="" />
+          </RoadMapImageContainer>
+        </RoadMapRight>
+        <RoadMapLeft border={true}>
           <YearsRoadMapContent left={true}>
             <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -85,11 +85,11 @@ const RoadMap = () => (
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
-          <YearsImageContainer left={true}>
-            <YearsImage src={secondaryIcon} alt="" />
-          </YearsImageContainer>
-        </YearsRoadMapLeft>
-        <YearsRoadMapRight>
+          <RoadMapImageContainer left={true}>
+            <RoadMapImage src={secondaryIcon} alt="" />
+          </RoadMapImageContainer>
+        </RoadMapLeft>
+        <RoadMapRight>
           <YearsRoadMapContent left={false}>
             <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
@@ -100,11 +100,11 @@ const RoadMap = () => (
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
-          <YearsImageContainer left={false}>
-            <YearsImage src={secondaryIcon} alt="" />
-          </YearsImageContainer>
-        </YearsRoadMapRight>
-        <YearsRoadMapLeft border={true}>
+          <RoadMapImageContainer left={false}>
+            <RoadMapImage src={secondaryIcon} alt="" />
+          </RoadMapImageContainer>
+        </RoadMapRight>
+        <RoadMapLeft border={true}>
           <YearsRoadMapContent left={true}>
             <YearsRoadMapTitle left={true}>2023</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={true}>Q2</YearsRoadMapSubTitle>
@@ -115,11 +115,11 @@ const RoadMap = () => (
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
           </YearsRoadMapContent>
-          <YearsImageContainer left={true}>
-            <YearsImage src={secondaryIcon} alt="" />
-          </YearsImageContainer>
-        </YearsRoadMapLeft>
-        <YearsRoadMapRight>
+          <RoadMapImageContainer left={true}>
+            <RoadMapImage src={secondaryIcon} alt="" />
+          </RoadMapImageContainer>
+        </RoadMapLeft>
+        <RoadMapRight>
           <YearsRoadMapContent left={false}>
             <YearsRoadMapTitle left={false}>2022</YearsRoadMapTitle>
             <YearsRoadMapSubTitle left={false}>Q2</YearsRoadMapSubTitle>
@@ -129,11 +129,11 @@ const RoadMap = () => (
                 Suspendisse id purus augue. Lorem ipsum dolor
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
-            <YearsImageContainer left={false}>
-              <YearsImage src={secondaryIcon} alt="" />
-            </YearsImageContainer>
+            <RoadMapImageContainer left={false}>
+              <RoadMapImage src={secondaryIcon} alt="" />
+            </RoadMapImageContainer>
           </YearsRoadMapContent>
-        </YearsRoadMapRight>
+        </RoadMapRight>
       </RoadMapMainContainer>
       <RoadMapRightSide></RoadMapRightSide>
     </RoadMapContainer>

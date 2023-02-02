@@ -50,7 +50,7 @@ export const RoadMapSubTitle = styled.p`
   margin: 0px;
 `;
 
-export const RoadMapImageContainer = styled.div`
+export const RoadMapMainImageContainer = styled.div`
   background: radial-gradient(
     41.76% 41.76% at 50% 50%,
     rgba(0, 56, 255, 0.24) 0%,
@@ -63,7 +63,7 @@ export const RoadMapMainImage = styled.img`
   width: 100%;
 `;
 
-export const YearsRoadMapRight = styled.div`
+export const RoadMapRight = styled.div`
   position: relative;
   border-right: 3px solid rgba(255, 255, 255, 0.12);
   border-radius: 30px;
@@ -72,7 +72,7 @@ export const YearsRoadMapRight = styled.div`
   margin-bottom: -6px;
 `;
 
-export const YearsRoadMapLeft = styled.div<BorderProps>`
+export const RoadMapLeft = styled.div<BorderProps>`
   position: relative;
   border-left: ${(props) =>
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
@@ -83,14 +83,14 @@ export const YearsRoadMapLeft = styled.div<BorderProps>`
   border-radius: 30px 0 0 30px;
 `;
 
-export const YearsImageContainer = styled.div<Props>`
+export const RoadMapImageContainer = styled.div<Props>`
   position: absolute;
-  top: 22px;
+  top: 32px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
   right: ${(props) => (!props.left ? "-110px" : "auto")};
 `;
 
-export const YearsImage = styled.img`
+export const RoadMapImage = styled.img`
   max-width: 200px;
 `;
 
