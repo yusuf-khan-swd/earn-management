@@ -79,3 +79,9 @@ export const DiscordJoiningButton = styled.button`
 export const DiscordButtonImage = styled.img``;
 
 export const DiscordContent = styled.span``;
+
+export const CopyRight = styled.div`
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+`;

@@ -18,6 +18,7 @@ import {
   BigDiscordImageWrapper,
   DiscordButtonImage,
   DiscordContent,
+  CopyRight,
 } from "../styles/footerStyles";
 
 import footerDiscord from "../assets/images/footer-discord.png";
@@ -77,6 +78,7 @@ const Footer = () => (
         </DiscordJoiningButton>
       </FooterBigDiscordContainer>
     </BigDiscordImageWrapper>
+    <CopyRight>@copyright. play 2022</CopyRight>
   </FooterWrapper>
 );
 
