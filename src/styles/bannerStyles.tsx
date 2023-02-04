@@ -11,7 +11,9 @@ export const BannerWrapper = styled.div`
   }
 `;
 
-export const BannerContentSection = styled.div``;
+export const BannerContentSection = styled.div`
+  max-width: 480px;
+`;
 
 export const BannerTitle = styled.h1`
   margin-top: 66px;

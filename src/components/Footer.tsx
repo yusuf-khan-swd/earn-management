@@ -78,7 +78,7 @@ const Footer = () => (
         </DiscordJoiningButton>
       </FooterBigDiscordContainer>
     </BigDiscordImageWrapper>
-    <CopyRight>@copyright. play 2022</CopyRight>
+    <CopyRight>@Copyright. play 2022</CopyRight>
   </FooterWrapper>
 );
 
