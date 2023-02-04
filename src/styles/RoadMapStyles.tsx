@@ -10,7 +10,8 @@ export const RoadMapLeftSide = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.178);
   border-top-right-radius: 30px;
   margin-right: -4px;
-  margin-top: -16px;
+  margin-top: -17px;
+  margin-left: -146px;
 `;
 
 export const RoadMapRightSide = styled.div``;
@@ -85,13 +86,14 @@ export const RoadMapLeft = styled.div<BorderProps>`
 
 export const RoadMapImageContainer = styled.div<Props>`
   position: absolute;
+  max-width: 200px;
   top: 32px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
   right: ${(props) => (!props.left ? "-110px" : "auto")};
 `;
 
 export const RoadMapImage = styled.img`
-  max-width: 200px;
+  width: 100%;
 `;
 
 export const YearsRoadMapContent = styled.div<Props>`
