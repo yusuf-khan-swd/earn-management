@@ -5,7 +5,7 @@ import {
   SocialIcon,
   FooterSiteMapContainer,
   FooterSocialContainer,
-  FooterSocialLeftSide,
+  FooterSocial,
   FooterWrapper,
   SiteMapColumn,
   SiteMapData,
@@ -54,7 +54,7 @@ const Footer = () => (
         </SiteMapColumn>
       </FooterSiteMapContainer>
       <FooterSocialContainer>
-        <FooterSocialLeftSide>
+        <FooterSocial>
           <SocialContent>
             <SocialIcon src={footerDiscord} alt="" />
             Join us on Discord
@@ -67,7 +67,7 @@ const Footer = () => (
             <SmallTwitter src={smallDiscord} alt="" />
             <SmallDiscord src={smallTwitter} alt="" />
           </FooterIconWrapper>
-        </FooterSocialLeftSide>
+        </FooterSocial>
       </FooterSocialContainer>
     </FooterContainer>
     <BigDiscordImageWrapper>
