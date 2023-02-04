@@ -8,7 +8,7 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(6, auto);
-  padding-top: 80px;
+  padding-top: 60px;
 `;
 
 export const FooterSiteMapContainer = styled.div`
@@ -28,7 +28,7 @@ export const SiteMapTitle = styled.h3`
 `;
 
 export const SiteMapData = styled.p`
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 `;
 
 export const FooterSocialContainer = styled.div``;
@@ -80,7 +80,9 @@ export const DiscordJoiningButton = styled.button`
   cursor: pointer;
 `;
 
-export const DiscordButtonImage = styled.img``;
+export const DiscordButtonImage = styled.img`
+  margin-bottom: 6px;
+`;
 
 export const DiscordContent = styled.span``;
 
