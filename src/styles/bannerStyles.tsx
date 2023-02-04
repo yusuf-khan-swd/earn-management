@@ -83,6 +83,7 @@ export const BannerImage = styled.img`
 
 export const CardContainer = styled.div<CardPositionProps>`
   position: absolute;
+  z-index: -1;
   top: ${(props) => props.top};
   right: ${(props) => props.right};
   bottom: ${(props) => props.bottom};
@@ -91,10 +92,9 @@ export const CardContainer = styled.div<CardPositionProps>`
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(40px);
   border-radius: 90px;
-  padding: 10px 20px;
-
+  padding: 20px;
   @media (max-width: 768px) {
-    visibility: hidden;
+    display: none;
   }
 `;
 
@@ -102,3 +102,5 @@ export const CardBody = styled.p`
   color: white;
   font-size: 14px;
 `;
+
+export const BreakLine = styled.br``;
