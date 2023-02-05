@@ -29,7 +29,7 @@ import secondaryIcon from "../assets/images/secondaryIcon.png";
 const RoadMap = () => (
   <>
     <RoadMapContainer>
-      <RoadMapLeftSide></RoadMapLeftSide>
+      <RoadMapLeftSide />
       <RoadMapMainContainer>
         <RoadMapMain>
           <RoadMapContent>
@@ -135,7 +135,7 @@ const RoadMap = () => (
           </YearsRoadMapContent>
         </RoadMapRight>
       </RoadMapMainContainer>
-      <RoadMapRightSide></RoadMapRightSide>
+      <RoadMapRightSide />
     </RoadMapContainer>
   </>
 );
