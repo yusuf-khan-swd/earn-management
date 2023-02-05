@@ -49,8 +49,7 @@ export const SocialIcon = styled.img`
 
 export const FooterIconWrapper = styled.div`
   display: flex;
-  margin-top: 35px;
-  margin-left: 5px;
+  margin: 35px 0 0 5px;
 `;
 
 export const SmallTwitter = styled.img`
@@ -87,6 +86,5 @@ export const DiscordContent = styled.span``;
 
 export const CopyRight = styled.div`
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px 0 15px 0;
 `;
