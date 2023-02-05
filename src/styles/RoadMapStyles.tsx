@@ -30,8 +30,7 @@ export const RoadMapContent = styled.div`
 `;
 
 export const RoadMapTitleContainer = styled.div`
-  margin-left: 20px;
-  margin-bottom: 60px;
+  margin: 0 0 60px 20px;
 `;
 
 export const RoadMapTitle = styled.h2`
@@ -66,9 +65,7 @@ export const RoadMapRight = styled.div`
   position: relative;
   border-right: 3px solid rgba(255, 255, 255, 0.12);
   border-radius: 30px;
-  margin-right: -14px;
-  margin-top: -5px;
-  margin-bottom: -6px;
+  margin: -5px -14px -6px 0;
   padding: 10px;
 `;
 
