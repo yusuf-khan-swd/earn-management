@@ -12,12 +12,10 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterSiteMapContainer = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 220px;
-  margin-right: 160px;
 `;
 
 export const SiteMapColumn = styled.div``;
@@ -31,7 +29,10 @@ export const SiteMapData = styled.p`
   margin-bottom: 28px;
 `;
 
-export const FooterSocialContainer = styled.div``;
+export const FooterSocialContainer = styled.div`
+  grid-column-start: 5;
+  grid-column-end: 6;
+`;
 
 export const FooterSocial = styled.div``;
 
