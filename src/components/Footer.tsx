@@ -26,31 +26,43 @@ import smallTwitter from "../assets/images/small-twitter.png";
 import smallDiscord from "../assets/images/small-discord.png";
 import discordButtonImage from "../assets/images/discord-image-button-icon.png";
 
+const footerData = [
+  {
+    title: "Fingertip",
+    home: "Home",
+    blog: "Blog",
+    roadMap: "RoadMap",
+    contact: "Contact",
+  },
+  {
+    title: "Resources",
+    home: "Discord",
+    blog: "Blog",
+    roadMap: "RoadMap",
+    contact: "Contact",
+  },
+  {
+    title: "About",
+    home: "Home",
+    blog: "Blog",
+    roadMap: "RoadMap",
+    contact: "Contact",
+  },
+];
+
 const Footer = () => (
   <FooterWrapper>
     <FooterContainer>
       <FooterSiteMapContainer>
-        <SiteMapColumn>
-          <SiteMapTitle>Fingertip</SiteMapTitle>
-          <SiteMapData>Home</SiteMapData>
-          <SiteMapData>Blog</SiteMapData>
-          <SiteMapData>RoadMap</SiteMapData>
-          <SiteMapData>Contact</SiteMapData>
-        </SiteMapColumn>
-        <SiteMapColumn>
-          <SiteMapTitle>Resources</SiteMapTitle>
-          <SiteMapData>Discord</SiteMapData>
-          <SiteMapData>Blog</SiteMapData>
-          <SiteMapData>RoadMap</SiteMapData>
-          <SiteMapData>Contact</SiteMapData>
-        </SiteMapColumn>
-        <SiteMapColumn>
-          <SiteMapTitle>About</SiteMapTitle>
-          <SiteMapData>Home</SiteMapData>
-          <SiteMapData>Blog</SiteMapData>
-          <SiteMapData>RoadMap</SiteMapData>
-          <SiteMapData>Contact</SiteMapData>
-        </SiteMapColumn>
+        {footerData.map((data, index) => (
+          <SiteMapColumn key={index}>
+            <SiteMapTitle>{data.title}</SiteMapTitle>
+            <SiteMapData>{data.home}</SiteMapData>
+            <SiteMapData>{data.blog}</SiteMapData>
+            <SiteMapData>{data.roadMap}</SiteMapData>
+            <SiteMapData>{data.contact}</SiteMapData>
+          </SiteMapColumn>
+        ))}
       </FooterSiteMapContainer>
       <FooterSocialContainer>
         <FooterSocialLeftSide>
