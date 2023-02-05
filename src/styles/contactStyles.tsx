@@ -10,8 +10,7 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactBody = styled.div`
-  margin-left: 35px;
-  margin-top: 50px;
+  margin: 50px 0 0 35px;
 `;
 
 export const ContactHeadingContainer = styled.div`
@@ -53,9 +52,8 @@ export const ContactInput = styled.input`
   padding: 12px 0px;
   width: 100%;
   background: transparent;
-  margin-left: 4px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.21);
-  margin-bottom: 25px;
+  margin: 0 0 25px 4px;
   outline: none;
   color: white;
 `;
