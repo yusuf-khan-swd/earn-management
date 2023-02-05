@@ -39,7 +39,6 @@ export const InputContainer = styled.div`
 export const InputEmail = styled.input`
   border: none;
   padding: 12px 0px;
-  width: 60%;
   background: transparent;
   margin-left: 4px;
   outline: none;
