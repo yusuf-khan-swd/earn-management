@@ -1,11 +1,5 @@
 import Home from "./components/Home";
 
-function App() {
-  return (
-    <div>
-      <Home></Home>
-    </div>
-  );
-}
+const App = () => <Home></Home>;
 
 export default App;

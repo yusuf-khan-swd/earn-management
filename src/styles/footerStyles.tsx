@@ -7,35 +7,39 @@ export const FooterWrapper = styled.div`
 
 export const FooterContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 50px 150px;
+  grid-template-columns: repeat(6, auto);
+  padding-top: 60px;
 `;
 
 export const FooterSiteMapContainer = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 220px;
+  margin-right: 160px;
 `;
 
 export const SiteMapColumn = styled.div``;
 
 export const SiteMapTitle = styled.h3`
   font-weight: normal;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 `;
 
 export const SiteMapData = styled.p`
-  margin-bottom: 15px;
+  margin-bottom: 28px;
 `;
 
 export const FooterSocialContainer = styled.div``;
 
-export const FooterSocialLeftSide = styled.div``;
+export const FooterSocial = styled.div``;
 
 export const SocialContent = styled.div`
   color: white;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const SocialIcon = styled.img`
@@ -44,7 +48,7 @@ export const SocialIcon = styled.img`
 
 export const FooterIconWrapper = styled.div`
   display: flex;
-  margin-top: 20px;
+  margin-top: 35px;
   margin-left: 5px;
 `;
 
@@ -76,6 +80,14 @@ export const DiscordJoiningButton = styled.button`
   cursor: pointer;
 `;
 
-export const DiscordButtonImage = styled.img``;
+export const DiscordButtonImage = styled.img`
+  margin-bottom: 6px;
+`;
 
 export const DiscordContent = styled.span``;
+
+export const CopyRight = styled.div`
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+`;

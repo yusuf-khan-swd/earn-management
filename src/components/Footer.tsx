@@ -5,7 +5,7 @@ import {
   SocialIcon,
   FooterSiteMapContainer,
   FooterSocialContainer,
-  FooterSocialLeftSide,
+  FooterSocial,
   FooterWrapper,
   SiteMapColumn,
   SiteMapData,
@@ -18,6 +18,7 @@ import {
   BigDiscordImageWrapper,
   DiscordButtonImage,
   DiscordContent,
+  CopyRight,
 } from "../styles/footerStyles";
 
 import footerDiscord from "../assets/images/footer-discord.png";
@@ -65,7 +66,7 @@ const Footer = () => (
         ))}
       </FooterSiteMapContainer>
       <FooterSocialContainer>
-        <FooterSocialLeftSide>
+        <FooterSocial>
           <SocialContent>
             <SocialIcon src={footerDiscord} alt="" />
             Join us on Discord
@@ -78,7 +79,7 @@ const Footer = () => (
             <SmallTwitter src={smallDiscord} alt="" />
             <SmallDiscord src={smallTwitter} alt="" />
           </FooterIconWrapper>
-        </FooterSocialLeftSide>
+        </FooterSocial>
       </FooterSocialContainer>
     </FooterContainer>
     <BigDiscordImageWrapper>
@@ -89,6 +90,7 @@ const Footer = () => (
         </DiscordJoiningButton>
       </FooterBigDiscordContainer>
     </BigDiscordImageWrapper>
+    <CopyRight>@Copyright. play 2022</CopyRight>
   </FooterWrapper>
 );
 
