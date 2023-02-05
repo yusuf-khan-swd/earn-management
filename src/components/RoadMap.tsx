@@ -51,12 +51,12 @@ const RoadMap = () => (
                 </YearsRoadMapBody>
               </YearsRoadMapContent>
               <RoadMapImageContainer left={true}>
-                <RoadMapImage src={primaryIcon} alt=""></RoadMapImage>
+                <RoadMapImage src={primaryIcon} alt="icon"></RoadMapImage>
               </RoadMapImageContainer>
             </RoadMapLeft>
           </RoadMapContent>
           <RoadMapMainImageContainer>
-            <RoadMapMainImage src={roadMapMainImage} alt="" />
+            <RoadMapMainImage src={roadMapMainImage} alt="icon" />
           </RoadMapMainImageContainer>
         </RoadMapMain>
         <RoadMapRight>
@@ -71,7 +71,7 @@ const RoadMap = () => (
             </YearsRoadMapBody>
           </YearsRoadMapContent>
           <RoadMapImageContainer left={false}>
-            <RoadMapImage src={secondaryIcon} alt="" />
+            <RoadMapImage src={secondaryIcon} alt="icon" />
           </RoadMapImageContainer>
         </RoadMapRight>
         <RoadMapLeft border={true}>
@@ -86,7 +86,7 @@ const RoadMap = () => (
             </YearsRoadMapBody>
           </YearsRoadMapContent>
           <RoadMapImageContainer left={true}>
-            <RoadMapImage src={secondaryIcon} alt="" />
+            <RoadMapImage src={secondaryIcon} alt="icon" />
           </RoadMapImageContainer>
         </RoadMapLeft>
         <RoadMapRight>
@@ -101,7 +101,7 @@ const RoadMap = () => (
             </YearsRoadMapBody>
           </YearsRoadMapContent>
           <RoadMapImageContainer left={false}>
-            <RoadMapImage src={secondaryIcon} alt="" />
+            <RoadMapImage src={secondaryIcon} alt="icon" />
           </RoadMapImageContainer>
         </RoadMapRight>
         <RoadMapLeft border={true}>
@@ -116,7 +116,7 @@ const RoadMap = () => (
             </YearsRoadMapBody>
           </YearsRoadMapContent>
           <RoadMapImageContainer left={true}>
-            <RoadMapImage src={secondaryIcon} alt="" />
+            <RoadMapImage src={secondaryIcon} alt="icon" />
           </RoadMapImageContainer>
         </RoadMapLeft>
         <RoadMapRight>
@@ -130,7 +130,7 @@ const RoadMap = () => (
               </YearsRoadMapBodyText>
             </YearsRoadMapBody>
             <RoadMapImageContainer left={false}>
-              <RoadMapImage src={secondaryIcon} alt="" />
+              <RoadMapImage src={secondaryIcon} alt="icon" />
             </RoadMapImageContainer>
           </YearsRoadMapContent>
         </RoadMapRight>

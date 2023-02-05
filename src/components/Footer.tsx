@@ -68,16 +68,16 @@ const Footer = () => (
       <FooterSocialContainer>
         <FooterSocial>
           <SocialContent>
-            <SocialIcon src={footerDiscord} alt="" />
+            <SocialIcon src={footerDiscord} alt="discord" />
             Join us on Discord
           </SocialContent>
           <SocialContent>
-            <SocialIcon src={mobileIcon} alt="" />
+            <SocialIcon src={mobileIcon} alt="phone" />
             (239) 555-0193
           </SocialContent>
           <FooterIconWrapper>
-            <SmallTwitter src={smallDiscord} alt="" />
-            <SmallDiscord src={smallTwitter} alt="" />
+            <SmallTwitter src={smallDiscord} alt="twitter" />
+            <SmallDiscord src={smallTwitter} alt="discord" />
           </FooterIconWrapper>
         </FooterSocial>
       </FooterSocialContainer>
@@ -85,7 +85,7 @@ const Footer = () => (
     <BigDiscordImageWrapper>
       <FooterBigDiscordContainer>
         <DiscordJoiningButton>
-          <DiscordButtonImage src={discordButtonImage} alt="" />
+          <DiscordButtonImage src={discordButtonImage} alt="discord" />
           <DiscordContent>Join Discord</DiscordContent>
         </DiscordJoiningButton>
       </FooterBigDiscordContainer>
