@@ -9,12 +9,12 @@ import RoadMap from "./RoadMap";
 const Home = () => (
   <>
     <MaxContainer>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <RoadMap></RoadMap>
-      <Contact></Contact>
+      <Navbar />
+      <Banner />
+      <RoadMap />
+      <Contact />
     </MaxContainer>
-    <Footer></Footer>
+    <Footer />
   </>
 );
 
