@@ -67,9 +67,7 @@ export const BigDiscordImageWrapper = styled.div`
 export const FooterBigDiscordContainer = styled.div``;
 
 export const DiscordJoiningButton = styled.button`
-  margin-top: -90px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: -60px 20px 20px auto;
   background: white;
   border: none;
   font-weight: bold;
