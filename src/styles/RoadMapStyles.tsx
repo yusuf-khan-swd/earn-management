@@ -9,9 +9,7 @@ export const RoadMapContainer = styled.div`
 export const RoadMapLeftSide = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.178);
   border-top-right-radius: 30px;
-  margin-right: -4px;
-  margin-top: -17px;
-  margin-left: -146px;
+  margin: -17px -4px 10px -146px;
 `;
 
 export const RoadMapRightSide = styled.div``;
