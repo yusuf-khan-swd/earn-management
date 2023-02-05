@@ -16,11 +16,10 @@ export const BannerContentSection = styled.div`
 `;
 
 export const BannerTitle = styled.h1`
-  margin-top: 66px;
   font-weight: 500;
   font-size: 51px;
   color: white;
-  margin-bottom: 15px;
+  margin: 66px 0 15px 0;
 `;
 
 export const BannerBody = styled.p`
