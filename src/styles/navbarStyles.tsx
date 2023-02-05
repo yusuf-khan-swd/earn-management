@@ -30,8 +30,8 @@ export const MenuItemsLink = styled.a`
 export const NavSocialMediaContainer = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.17);
   border-radius: 60px;
-  width: 106px;
-  height: 56px;
+  min-width: 106px;
+  min-height: 56px;
   display: flex;
   justify-content: center;
   align-items: center;
