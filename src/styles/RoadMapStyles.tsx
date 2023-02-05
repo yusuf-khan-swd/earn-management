@@ -95,8 +95,7 @@ export const RoadMapImage = styled.img`
 
 export const YearsRoadMapContent = styled.div<Props>`
   margin: ${(props) => (props.left ? "0 110px" : "0 125px")};
-  padding-bottom: 30px;
-  padding-top: 15px;
+  padding: 15px 0 30px 0;
 `;
 
 export const YearsRoadMapTitle = styled.h3<Props>`
