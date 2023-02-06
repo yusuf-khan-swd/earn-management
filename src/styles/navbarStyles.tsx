@@ -7,12 +7,12 @@ export const NavbarWrapper = styled.nav`
   align-items: center;
   padding-top: 8px;
   margin: 0 auto;
+  padding: 8px;
 `;
 
 export const NavLogo = styled.img`
   max-width: 70px;
   min-width: 40px;
-  margin: 8px;
 `;
 
 export const MenuContainer = styled.ul`
@@ -36,6 +36,10 @@ export const NavSocialMediaContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 export const DiscordLink = styled.a`
