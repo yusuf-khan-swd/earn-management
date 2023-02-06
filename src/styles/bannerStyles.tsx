@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { CardPositionProps } from "../types/interfaces";
 
 export const BannerWrapper = styled.div`
+  padding: 0 55px;
   margin-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
