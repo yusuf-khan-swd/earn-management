@@ -19,10 +19,19 @@ export const ContactBody = styled.div`
 
 export const ContactHeadingContainer = styled.div`
   margin-bottom: 120px;
+
+  @media (max-width: 640px) {
+    margin-bottom: 80px;
+  }
 `;
 
 export const ContactTitle = styled.h4`
   font-size: 40px;
+  margin-bottom: 10px;
+
+  @media (max-width: 640px) {
+    font-size: 30px;
+  }
 `;
 
 export const ContactSubTitle = styled.p``;
@@ -30,6 +39,10 @@ export const ContactSubTitle = styled.p``;
 export const ContactFormContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ContactAddressContainer = styled.div``;
@@ -49,7 +62,9 @@ export const Country = styled.span`
   margin-right: 5px;
 `;
 
-export const ContactInputContainer = styled.div``;
+export const ContactInputContainer = styled.div`
+  margin-right: 5px;
+`;
 
 export const ContactInput = styled.input`
   border: none;
@@ -68,6 +83,11 @@ export const SubmitButtonContainer = styled.div`
   align-items: flex-end;
   margin-top: -30px;
   padding-bottom: 50px;
+
+  @media (max-width: 640px) {
+    margin: 0;
+    justify-content: center;
+  }
 `;
 
 export const SubmitButton = styled.button`
