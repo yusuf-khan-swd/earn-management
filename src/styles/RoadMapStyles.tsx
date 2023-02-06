@@ -3,7 +3,12 @@ import { BorderProps, Props } from "../types/interfaces";
 
 export const RoadMapContainer = styled.div`
   display: grid;
-  grid-template-columns: 140px auto 140px;
+  grid-template-columns: repeat(6, 1fr);
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
 `;
 
 export const RoadMapLeftSide = styled.div`
@@ -14,7 +19,10 @@ export const RoadMapLeftSide = styled.div`
 
 export const RoadMapRightSide = styled.div``;
 
-export const RoadMapMainContainer = styled.div``;
+export const RoadMapMainContainer = styled.div`
+  grid-column-start: 2;
+  grid-column-end: 6;
+`;
 
 export const RoadMapMain = styled.div`
   display: grid;
@@ -22,6 +30,10 @@ export const RoadMapMain = styled.div`
   border-bottom: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
   border-bottom-left-radius: 30px;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const RoadMapContent = styled.div`
@@ -55,6 +67,10 @@ export const RoadMapMainImageContainer = styled.div`
     rgba(0, 133, 255, 0) 100%
   );
   max-width: 460px;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 export const RoadMapMainImage = styled.img`
@@ -87,6 +103,10 @@ export const RoadMapImageContainer = styled.div<Props>`
   top: 32px;
   left: ${(props) => (props.left ? "-120px" : "auto")};
   right: ${(props) => (!props.left ? "-110px" : "auto")};
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 export const RoadMapImage = styled.img`
@@ -96,6 +116,10 @@ export const RoadMapImage = styled.img`
 export const YearsRoadMapContent = styled.div<Props>`
   margin: ${(props) => (props.left ? "0 110px" : "0 125px")};
   padding: 15px 0 30px 0;
+
+  @media (max-width: 640px) {
+    margin: 10px;
+  }
 `;
 
 export const YearsRoadMapTitle = styled.h3<Props>`
