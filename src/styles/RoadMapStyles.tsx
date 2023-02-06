@@ -7,7 +7,7 @@ export const RoadMapContainer = styled.div`
 
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
-    margin: 10px;
+    margin: 0 30px 0 10px;
   }
 `;
 

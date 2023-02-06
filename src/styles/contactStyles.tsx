@@ -7,6 +7,10 @@ export const ContactContainer = styled.div`
   border-top: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
   border-top-left-radius: 30px;
+
+  @media (max-width: 640px) {
+    margin: 10px;
+  }
 `;
 
 export const ContactBody = styled.div`
