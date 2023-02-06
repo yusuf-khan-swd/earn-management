@@ -11,6 +11,7 @@ export const NavbarWrapper = styled.nav`
 
 export const NavLogo = styled.img`
   max-width: 70px;
+  min-width: 40px;
   margin: 8px;
 `;
 
