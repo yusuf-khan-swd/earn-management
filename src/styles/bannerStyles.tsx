@@ -9,6 +9,7 @@ export const BannerWrapper = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    padding: 0 20px;
   }
 `;
 
@@ -21,12 +22,18 @@ export const BannerTitle = styled.h1`
   font-size: 51px;
   color: white;
   margin: 66px 0 15px 0;
+
+  @media (max-width: 640px) {
+    font-size: 35px;
+    margin: 25px 0 15px 0;
+  }
 `;
 
 export const BannerBody = styled.p`
   font-size: 15px;
   color: white;
   margin-bottom: 30px;
+  font-weight: 200;
 `;
 
 export const InputContainer = styled.div`
@@ -36,6 +43,7 @@ export const InputContainer = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 89px;
   max-width: 400px;
+  margin-bottom: 40px;
 `;
 
 export const InputEmail = styled.input`
