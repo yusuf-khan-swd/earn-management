@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
+export const ContactWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+`;
+
 export const ContactContainer = styled.div`
   color: white;
-  margin: 0 156px;
+  grid-column-start: 2;
+  grid-column-end: 8;
   font-weight: normal;
   border-top: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
@@ -10,6 +16,8 @@ export const ContactContainer = styled.div`
 
   @media (max-width: 640px) {
     margin: 0 30px 0 10px;
+    grid-column-start: 1;
+    grid-column-end: 8;
   }
 `;
 
