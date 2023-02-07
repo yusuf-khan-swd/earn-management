@@ -3,7 +3,7 @@ import { BorderProps, Props } from "../types/interfaces";
 
 export const RoadMapContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
@@ -21,7 +21,7 @@ export const RoadMapRightSide = styled.div``;
 
 export const RoadMapMainContainer = styled.div`
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 8;
 `;
 
 export const RoadMapMain = styled.div`
