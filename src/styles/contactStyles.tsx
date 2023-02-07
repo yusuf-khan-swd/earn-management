@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   color: white;
-  margin: 0 140px;
+  margin: 0 156px;
   font-weight: normal;
   border-top: 3px solid rgba(255, 255, 255, 0.12);
   border-left: 3px solid rgba(255, 255, 255, 0.12);
