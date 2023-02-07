@@ -17,7 +17,7 @@ export const ContactContainer = styled.div`
   @media (max-width: 640px) {
     margin: 0 30px 0 10px;
     grid-column-start: 1;
-    grid-column-end: 8;
+    grid-column-end: 9;
   }
 `;
 
