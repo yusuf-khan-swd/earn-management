@@ -16,6 +16,10 @@ export const FooterSiteMapContainer = styled.div`
   grid-column-end: 4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const SiteMapColumn = styled.div``;
