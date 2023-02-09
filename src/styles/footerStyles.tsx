@@ -127,5 +127,5 @@ export const DiscordContent = styled.span``;
 
 export const CopyRight = styled.div`
   text-align: center;
-  margin: 15px 0 15px 0;
+  margin: 25px 0;
 `;
