@@ -75,7 +75,7 @@ export const SocialIcon = styled.img`
 
 export const FooterIconWrapper = styled.div`
   display: flex;
-  margin: 35px 0 0 5px;
+  margin: 25px 0 0 5px;
 
   @media (max-width: 640px) {
     justify-content: center;
