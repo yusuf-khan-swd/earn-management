@@ -8,7 +8,8 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
   padding: 30px 20px;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
+
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
     padding: 20px;
@@ -18,14 +19,14 @@ export const FooterContainer = styled.div`
 
 export const FooterSiteMapContainer = styled.div`
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   order: 1;
 
   @media (max-width: 640px) {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 0;
+    grid-column-end: 1;
     order: 2;
     margin-top: 50px;
   }
@@ -43,13 +44,13 @@ export const SiteMapData = styled.p`
 `;
 
 export const FooterSocialContainer = styled.div`
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 6;
   order: 2;
   @media (max-width: 640px) {
+    order: 1;
     grid-column-start: 0;
     grid-column-end: 1;
-    order: 1;
     display: flex;
     justify-content: center;
   }
@@ -89,18 +90,24 @@ export const SmallTwitter = styled.img`
 export const SmallDiscord = styled.img``;
 
 export const BigDiscordImageWrapper = styled.div`
+  order: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
   display: flex;
   justify-content: end;
+  align-items: flex-end;
 
   @media (max-width: 640px) {
+    margin-top: 20px;
     justify-content: center;
+    grid-column-start: 0;
+    grid-column-end: 1;
   }
 `;
 
 export const FooterBigDiscordContainer = styled.div``;
 
 export const DiscordJoiningButton = styled.button`
-  margin: -60px 20px 0px auto;
   background: white;
   border: none;
   font-weight: bold;

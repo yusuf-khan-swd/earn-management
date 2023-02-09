@@ -81,15 +81,16 @@ const Footer = () => (
           </FooterIconWrapper>
         </FooterSocial>
       </FooterSocialContainer>
+      <BigDiscordImageWrapper>
+        <FooterBigDiscordContainer>
+          <DiscordJoiningButton>
+            <DiscordButtonImage src={discordButtonImage} alt="discord" />
+            <DiscordContent>Join Discord</DiscordContent>
+          </DiscordJoiningButton>
+        </FooterBigDiscordContainer>
+      </BigDiscordImageWrapper>
     </FooterContainer>
-    <BigDiscordImageWrapper>
-      <FooterBigDiscordContainer>
-        <DiscordJoiningButton>
-          <DiscordButtonImage src={discordButtonImage} alt="discord" />
-          <DiscordContent>Join Discord</DiscordContent>
-        </DiscordJoiningButton>
-      </FooterBigDiscordContainer>
-    </BigDiscordImageWrapper>
+
     <CopyRight>@Copyright. play 2022</CopyRight>
   </FooterWrapper>
 );
