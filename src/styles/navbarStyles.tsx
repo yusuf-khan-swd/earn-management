@@ -7,7 +7,7 @@ export const NavbarWrapper = styled.nav`
   align-items: center;
   padding-top: 8px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px 0 0 15px;
 `;
 
 export const NavLogo = styled.img`
