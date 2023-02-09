@@ -17,8 +17,8 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterSiteMapContainer = styled.div`
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   order: 1;
@@ -43,8 +43,8 @@ export const SiteMapData = styled.p`
 `;
 
 export const FooterSocialContainer = styled.div`
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
   order: 2;
   @media (max-width: 640px) {
     grid-column-start: 0;
@@ -91,7 +91,7 @@ export const BigDiscordImageWrapper = styled.div`
 export const FooterBigDiscordContainer = styled.div``;
 
 export const DiscordJoiningButton = styled.button`
-  margin: -60px 20px 20px auto;
+  margin: -60px 20px 0px auto;
   background: white;
   border: none;
   font-weight: bold;
