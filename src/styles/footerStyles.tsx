@@ -61,7 +61,11 @@ export const SocialContent = styled.div`
   color: white;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+  }
 `;
 
 export const SocialIcon = styled.img`
@@ -71,6 +75,11 @@ export const SocialIcon = styled.img`
 export const FooterIconWrapper = styled.div`
   display: flex;
   margin: 35px 0 0 5px;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+    margin-top: 25px;
+  }
 `;
 
 export const SmallTwitter = styled.img`
@@ -108,6 +117,7 @@ export const DiscordJoiningButton = styled.button`
     margin: 0;
     padding: 9px 45px;
     border-radius: 30px;
+    min-height: 65px;
   }
 `;
 
