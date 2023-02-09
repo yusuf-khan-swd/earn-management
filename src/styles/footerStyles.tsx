@@ -98,7 +98,9 @@ export const DiscordJoiningButton = styled.button`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+  justify-content: space-between;
+  min-height: 105px;
+  padding: 30px 15px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -109,9 +111,7 @@ export const DiscordJoiningButton = styled.button`
   }
 `;
 
-export const DiscordButtonImage = styled.img`
-  margin-bottom: 6px;
-`;
+export const DiscordButtonImage = styled.img``;
 
 export const DiscordContent = styled.span``;
 
