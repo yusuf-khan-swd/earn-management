@@ -6,13 +6,13 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterContainer = styled.div`
-  padding: 60px 20px;
+  padding: 30px 20px;
   display: grid;
-  text-align: center;
   grid-template-columns: repeat(6, auto);
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
     padding: 20px;
+    text-align: center;
   }
 `;
 
