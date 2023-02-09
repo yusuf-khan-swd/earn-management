@@ -35,11 +35,11 @@ export const SiteMapColumn = styled.div``;
 
 export const SiteMapTitle = styled.h3`
   font-weight: normal;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 `;
 
 export const SiteMapData = styled.p`
-  margin-bottom: 28px;
+  margin-bottom: 23px;
 `;
 
 export const FooterSocialContainer = styled.div`
