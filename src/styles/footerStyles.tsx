@@ -6,9 +6,14 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterContainer = styled.div`
+  padding: 60px 20px;
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(6, auto);
-  padding-top: 60px;
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 `;
 
 export const FooterSiteMapContainer = styled.div`
@@ -16,9 +21,13 @@ export const FooterSiteMapContainer = styled.div`
   grid-column-end: 4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  order: 1;
 
   @media (max-width: 640px) {
-    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    order: 2;
+    margin-top: 50px;
   }
 `;
 
@@ -36,6 +45,14 @@ export const SiteMapData = styled.p`
 export const FooterSocialContainer = styled.div`
   grid-column-start: 5;
   grid-column-end: 6;
+  order: 2;
+  @media (max-width: 640px) {
+    grid-column-start: 0;
+    grid-column-end: 1;
+    order: 1;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 export const FooterSocial = styled.div``;
@@ -65,6 +82,10 @@ export const SmallDiscord = styled.img``;
 export const BigDiscordImageWrapper = styled.div`
   display: flex;
   justify-content: end;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+  }
 `;
 
 export const FooterBigDiscordContainer = styled.div``;
@@ -80,6 +101,12 @@ export const DiscordJoiningButton = styled.button`
   padding: 40px 20px;
   border-radius: 50%;
   cursor: pointer;
+
+  @media (max-width: 640px) {
+    margin: 0;
+    padding: 9px 45px;
+    border-radius: 30px;
+  }
 `;
 
 export const DiscordButtonImage = styled.img`
