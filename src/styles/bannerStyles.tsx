@@ -19,7 +19,7 @@ export const BannerContentWrapper = styled.div`
 `;
 
 export const BannerContentSection = styled.div`
-  max-width: 480px;
+  max-width: 445px;
 `;
 
 export const BannerTitle = styled.h1`
