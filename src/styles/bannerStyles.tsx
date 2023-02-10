@@ -90,7 +90,6 @@ export const BannerImage = styled.img`
 
 export const CardContainer = styled.div<CardPositionProps>`
   position: absolute;
-  z-index: -1;
   top: ${(props) => props.top};
   right: ${(props) => props.right};
   bottom: ${(props) => props.bottom};
