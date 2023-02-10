@@ -73,6 +73,7 @@ export const ButtonIcon = styled.img`
 `;
 
 export const BannerImageSection = styled.div`
+  overflow: hidden;
   background: radial-gradient(
     41.76% 41.76% at 50% 50%,
     rgba(0, 209, 255, 0.24) 0%,
@@ -110,7 +111,9 @@ export const CardContainer = styled.div<CardPositionProps>`
   border-radius: 90px;
   padding: 20px;
   @media (max-width: 768px) {
-    display: none;
+    padding: 5px;
+    max-width: 120px;
+    text-align: center;
   }
 `;
 
@@ -119,7 +122,7 @@ export const CardBody = styled.p`
   font-size: 14px;
 
   @media (max-width: 640px) {
-    font-size: 8px;
+    font-size: 10px;
   }
 `;
 
