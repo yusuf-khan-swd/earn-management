@@ -8,7 +8,7 @@ export const FooterWrapper = styled.div`
 export const FooterContainer = styled.div`
   padding: 30px 20px;
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(12, 1fr);
 
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
@@ -18,8 +18,8 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterSiteMapContainer = styled.div`
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 7;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   order: 1;
@@ -44,8 +44,8 @@ export const SiteMapData = styled.p`
 `;
 
 export const FooterSocialContainer = styled.div`
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column-start: 8;
+  grid-column-end: 11;
   order: 2;
   @media (max-width: 640px) {
     order: 1;
@@ -91,8 +91,8 @@ export const SmallDiscord = styled.img``;
 
 export const BigDiscordImageWrapper = styled.div`
   order: 3;
-  grid-column-start: 7;
-  grid-column-end: 8;
+  grid-column-start: 12;
+  grid-column-end: 13;
   display: flex;
   justify-content: end;
   align-items: flex-end;
