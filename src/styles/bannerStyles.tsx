@@ -85,7 +85,13 @@ export const BannerImageSection = styled.div`
 `;
 
 export const BannerImage = styled.img`
-  width: 100%;
+  max-width: 716px;
+  max-height: 550px;
+
+  @media (max-width: 640px) {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const CardContainer = styled.div<CardPositionProps>`
