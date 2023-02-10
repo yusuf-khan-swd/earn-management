@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { CardPositionProps } from "../types/interfaces";
 
 export const BannerWrapper = styled.div`
-  padding: 0 55px;
   margin-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,6 +12,12 @@ export const BannerWrapper = styled.div`
   }
 `;
 
+export const BannerContentWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const BannerContentSection = styled.div`
   max-width: 480px;
 `;
@@ -21,7 +26,6 @@ export const BannerTitle = styled.h1`
   font-weight: 500;
   font-size: 51px;
   color: white;
-  margin: 66px 0 15px 0;
 
   @media (max-width: 640px) {
     font-size: 35px;

@@ -2,6 +2,7 @@ import React from "react";
 import {
   BannerBody,
   BannerContentSection,
+  BannerContentWrapper,
   BannerImage,
   BannerImageSection,
   BannerTitle,
@@ -21,21 +22,24 @@ import bannerImage from "../assets/images/banner.png";
 
 const Banner = () => (
   <BannerWrapper>
-    <BannerContentSection>
-      <BannerTitle>Guild Hub of the Metaverse</BannerTitle>
-      <BannerBody>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis
-        mattis hendrerit. Praesent vel risus in risus vestibulum aliquet.
-      </BannerBody>
-      <InputContainer>
-        <InputEmail type="email" placeholder="Enter you Email Address" />
-        <Select>
-          <SelectOption value="owner">Owner</SelectOption>
-          <SelectOption value="audit">Audi</SelectOption>
-        </Select>
-        <ButtonIcon src={btnPng} alt="banner" />
-      </InputContainer>
-    </BannerContentSection>
+    <BannerContentWrapper>
+      <BannerContentSection>
+        <BannerTitle>Guild Hub of the Metaverse</BannerTitle>
+        <BannerBody>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          sagittis mattis hendrerit. Praesent vel risus in risus vestibulum
+          aliquet.
+        </BannerBody>
+        <InputContainer>
+          <InputEmail type="email" placeholder="Enter you Email Address" />
+          <Select>
+            <SelectOption value="owner">Owner</SelectOption>
+            <SelectOption value="audit">Audi</SelectOption>
+          </Select>
+          <ButtonIcon src={btnPng} alt="banner" />
+        </InputContainer>
+      </BannerContentSection>
+    </BannerContentWrapper>
     <BannerImageSection>
       <BannerImage src={bannerImage} alt="banner" />
       <CardContainer top="25%" right="auto" bottom="auto" left="5%">
