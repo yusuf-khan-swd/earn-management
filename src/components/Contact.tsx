@@ -43,10 +43,10 @@ const Contact = () => (
             <ContactInput type="text" placeholder="Describe Your Need" />
           </ContactInputContainer>
         </ContactFormContainer>
+        <SubmitButtonContainer>
+          <SubmitButton>Submit Request</SubmitButton>
+        </SubmitButtonContainer>
       </ContactBody>
-      <SubmitButtonContainer>
-        <SubmitButton>Submit Request</SubmitButton>
-      </SubmitButtonContainer>
     </ContactContainer>
   </ContactWrapper>
 );
