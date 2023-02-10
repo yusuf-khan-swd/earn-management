@@ -121,10 +121,6 @@ export const DiscordJoiningButton = styled.button`
   cursor: pointer;
 
   @media (max-width: 640px) {
-    margin: 0;
-    padding: 9px 45px;
-    border-radius: 30px;
-    min-height: 65px;
   }
 `;
 
