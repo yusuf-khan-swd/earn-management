@@ -7,12 +7,23 @@ export const NavbarWrapper = styled.nav`
   align-items: center;
   padding-top: 8px;
   margin: 0 auto;
-  padding: 15px 0 0 15px;
+  padding: 15px;
 `;
 
 export const NavLogo = styled.img`
   max-width: 70px;
   min-width: 40px;
+`;
+
+export const DesktopMenuContainer = styled.div`
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 export const MenuContainer = styled.ul`
@@ -55,3 +66,18 @@ export const TwitterLink = styled.a`
   color: white;
 `;
 export const Twitter = styled.img``;
+
+export const MobileMenuContainer = styled.div`
+  @media (min-width: 640px) {
+    display: none;
+  }
+`;
+
+export const MenuIconContainer = styled.div``;
+
+export const MenuIcon = styled.div`
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+`;
