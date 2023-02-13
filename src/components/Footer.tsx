@@ -26,30 +26,7 @@ import mobileIcon from "../assets/images/mobile-icon.png";
 import smallTwitter from "../assets/images/small-twitter.png";
 import smallDiscord from "../assets/images/small-discord.png";
 import discordButtonImage from "../assets/images/discord-image-button-icon.png";
-
-const footerData = [
-  {
-    title: "Fingertip",
-    home: "Home",
-    blog: "Blog",
-    roadMap: "RoadMap",
-    contact: "Contact",
-  },
-  {
-    title: "Resources",
-    home: "Discord",
-    blog: "Blog",
-    roadMap: "RoadMap",
-    contact: "Contact",
-  },
-  {
-    title: "About",
-    home: "Home",
-    blog: "Blog",
-    roadMap: "RoadMap",
-    contact: "Contact",
-  },
-];
+import { footerData } from "../data/footerData";
 
 const Footer = () => (
   <FooterWrapper>
