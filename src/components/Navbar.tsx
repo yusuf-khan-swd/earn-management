@@ -14,13 +14,15 @@ import {
   MenuIconContainer,
   DesktopMenuContainer,
   MobileMenuContainer,
+  MobileSideNav,
+  MobileMenuAnchor,
+  MobileMainDiv,
+  CloseButton,
 } from "../styles/navbarStyles";
 
 import logo from "../assets/images/logo.png";
 import discordImage from "../assets/images/discord.png";
 import twitterImage from "../assets/images/twitter.png";
-
-import "./nav.css";
 
 const Navbar = () => {
   const openNav = () => {
@@ -82,17 +84,17 @@ const Navbar = () => {
         </MobileMenuContainer>
       </NavbarWrapper>
 
-      <div id="mySidenav" className="sidenav">
-        <a href="#" className="closebtn" onClick={closeNav}>
+      <MobileSideNav id="mySidenav">
+        <CloseButton href="#" onClick={closeNav}>
           &times;
-        </a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
+        </CloseButton>
+        <MobileMenuAnchor href="#">About</MobileMenuAnchor>
+        <MobileMenuAnchor href="#">Services</MobileMenuAnchor>
+        <MobileMenuAnchor href="#">Clients</MobileMenuAnchor>
+        <MobileMenuAnchor href="#">Contact</MobileMenuAnchor>
+      </MobileSideNav>
 
-      <div id="main"></div>
+      <MobileMainDiv id="main"></MobileMainDiv>
     </>
   );
 };
