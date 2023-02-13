@@ -30,7 +30,7 @@ export const BannerTitle = styled.h1`
 
   @media (max-width: 640px) {
     font-size: 35px;
-    margin: 25px 0 15px 0;
+    margin: 10px 0 15px 0;
   }
 `;
 
