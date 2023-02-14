@@ -6,8 +6,7 @@ export const RoadMapContainer = styled.div`
   grid-template-columns: repeat(8, 1fr);
 
   @media (max-width: 640px) {
-    grid-template-columns: 1fr;
-    margin: 0 30px 0 10px;
+    grid-template-columns: repeat(5, 1fr);
   }
 `;
 
@@ -22,6 +21,11 @@ export const RoadMapRightSide = styled.div``;
 export const RoadMapMainContainer = styled.div`
   grid-column-start: 2;
   grid-column-end: 8;
+
+  @media (max-width: 640px) {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
 `;
 
 export const RoadMapMain = styled.div`
@@ -69,7 +73,6 @@ export const RoadMapMainImageContainer = styled.div`
   max-width: 460px;
 
   @media (max-width: 640px) {
-    display: none;
   }
 `;
 
@@ -83,6 +86,9 @@ export const RoadMapRight = styled.div`
   border-radius: 30px;
   margin: -5px -14px -6px 0;
   padding: 10px;
+
+  @media (max-width: 640px) {
+  }
 `;
 
 export const RoadMapLeft = styled.div<BorderProps>`
@@ -95,6 +101,9 @@ export const RoadMapLeft = styled.div<BorderProps>`
     props.border ? "3px solid rgba(255, 255, 255, 0.12)" : "none"};
   border-radius: 30px 0 0 30px;
   padding: 10px;
+
+  @media (max-width: 640px) {
+  }
 `;
 
 export const RoadMapImageContainer = styled.div<Props>`
@@ -105,7 +114,10 @@ export const RoadMapImageContainer = styled.div<Props>`
   right: ${(props) => (!props.left ? "-110px" : "auto")};
 
   @media (max-width: 640px) {
-    display: none;
+    max-width: 120px;
+    left: ${(props) => (props.left ? "-25%" : "auto")};
+    right: ${(props) => (!props.left ? "-25%" : "auto")};
+    top: 30%;
   }
 `;
 
