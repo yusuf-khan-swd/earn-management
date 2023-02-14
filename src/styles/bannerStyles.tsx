@@ -116,9 +116,9 @@ export const CardContainer = styled.div<CardPositionProps>`
   border-radius: 90px;
   padding: 20px;
   @media (max-width: 768px) {
-    padding: 5px;
-    max-width: 120px;
-    text-align: center;
+    border-radius: 18px;
+    padding: 6px 5px 5px 15px;
+    max-width: 130px;
   }
 `;
 
