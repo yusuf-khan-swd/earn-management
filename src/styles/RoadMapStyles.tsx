@@ -114,10 +114,10 @@ export const RoadMapImageContainer = styled.div<Props>`
   right: ${(props) => (!props.left ? "-110px" : "auto")};
 
   @media (max-width: 640px) {
-    max-width: 120px;
+    max-width: 90px;
     left: ${(props) => (props.left ? "-25%" : "auto")};
-    right: ${(props) => (!props.left ? "-25%" : "auto")};
-    top: 30%;
+    right: ${(props) => (!props.left ? "-20%" : "auto")};
+    top: 40%;
   }
 `;
 
@@ -130,7 +130,7 @@ export const YearsRoadMapContent = styled.div<Props>`
   padding: 15px 0 30px 0;
 
   @media (max-width: 640px) {
-    margin: 10px;
+    margin: ${(props) => (props.left ? "5px 0 5px 40px" : "5px 40px 5px 0")};
   }
 `;
 
