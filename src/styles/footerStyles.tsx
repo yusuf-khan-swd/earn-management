@@ -47,7 +47,7 @@ export const FooterSocialContainer = styled.div`
   @media (max-width: 640px) {
     grid-column-start: 0;
     grid-column-end: 1;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 `;
 
