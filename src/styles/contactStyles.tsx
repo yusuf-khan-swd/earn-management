@@ -29,7 +29,7 @@ export const ContactHeadingContainer = styled.div`
   margin-bottom: 120px;
 
   @media (max-width: 640px) {
-    margin-bottom: 80px;
+    margin-bottom: 35px;
   }
 `;
 
@@ -58,11 +58,21 @@ export const ContactAddressContainer = styled.div``;
 export const WebsiteLink = styled.p`
   font-size: 20px;
   margin-bottom: 55px;
+
+  @media (max-width: 640px) {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
 `;
 
 export const PhoneNumber = styled.p`
   font-size: 20px;
   margin-bottom: 55px;
+
+  @media (max-width: 640px) {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
 `;
 
 export const Country = styled.span`
@@ -72,6 +82,10 @@ export const Country = styled.span`
 
 export const ContactInputContainer = styled.div`
   margin-right: 5px;
+
+  @media (max-width: 640px) {
+    margin: 18px 0;
+  }
 `;
 
 export const ContactInput = styled.input`
