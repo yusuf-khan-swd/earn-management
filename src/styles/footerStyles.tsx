@@ -13,7 +13,6 @@ export const FooterContainer = styled.div`
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
     padding: 20px;
-    text-align: center;
   }
 `;
 
@@ -22,13 +21,11 @@ export const FooterSiteMapContainer = styled.div`
   grid-column-end: 7;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  order: 1;
 
   @media (max-width: 640px) {
     grid-column-start: 0;
     grid-column-end: 1;
-    order: 2;
-    margin-top: 50px;
+    margin: 15px 0;
   }
 `;
 
@@ -46,13 +43,11 @@ export const SiteMapData = styled.p`
 export const FooterSocialContainer = styled.div`
   grid-column-start: 8;
   grid-column-end: 11;
-  order: 2;
+
   @media (max-width: 640px) {
-    order: 1;
     grid-column-start: 0;
     grid-column-end: 1;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
   }
 `;
 
@@ -65,7 +60,6 @@ export const SocialContent = styled.div`
   margin-bottom: 15px;
 
   @media (max-width: 640px) {
-    justify-content: center;
   }
 `;
 
@@ -78,7 +72,6 @@ export const FooterIconWrapper = styled.div`
   margin: 25px 0 0 5px;
 
   @media (max-width: 640px) {
-    justify-content: center;
     margin-top: 25px;
   }
 `;
@@ -99,7 +92,7 @@ export const BigDiscordImageWrapper = styled.div`
 
   @media (max-width: 640px) {
     margin-top: 20px;
-    justify-content: center;
+    justify-content: left;
     grid-column-start: 0;
     grid-column-end: 1;
   }
