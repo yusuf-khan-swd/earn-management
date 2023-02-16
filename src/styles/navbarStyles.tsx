@@ -76,8 +76,8 @@ export const MobileMenuContainer = styled.div`
 export const MenuIconContainer = styled.div``;
 
 export const MenuIcon = styled.div`
-  width: 35px;
-  height: 5px;
+  width: 26px;
+  height: 3px;
   background-color: white;
   margin: 6px 0;
 `;
