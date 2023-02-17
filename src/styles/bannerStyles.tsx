@@ -23,8 +23,7 @@ export const BannerContentSection = styled.div`
 `;
 
 export const BannerTitle = styled.h1`
-  font-weight: 500;
-  font-size: 51px;
+  font: 500 51px outfit;
   color: white;
   margin-bottom: 20px;
 
@@ -35,10 +34,9 @@ export const BannerTitle = styled.h1`
 `;
 
 export const BannerBody = styled.p`
-  font-size: 15px;
+  font: 200 14px outfit;
   color: white;
   margin-bottom: 30px;
-  font-weight: 200;
 `;
 
 export const InputContainer = styled.div`

@@ -50,18 +50,14 @@ export const RoadMapTitleContainer = styled.div`
 `;
 
 export const RoadMapTitle = styled.h2`
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
+  font: 500 40px outfit;
   color: #ffffff;
   margin: 0px;
 `;
 
 export const RoadMapSubTitle = styled.p`
-  font-weight: 400;
-  font-size: 15px;
+  font: 400 14px outfit;
   color: #ffffff;
-  margin: 0px;
 `;
 
 export const RoadMapMainImageContainer = styled.div`
@@ -126,16 +122,14 @@ export const YearsRoadMapContent = styled.div<Props>`
 `;
 
 export const YearsRoadMapTitle = styled.h3<Props>`
-  font-size: 40px;
-  font-weight: normal;
+  font: normal 40px outfit;
   text-align: ${(props) => (props.left ? "left" : "right")};
   color: #ffffff;
   margin-bottom: 8px;
 `;
 
 export const YearsRoadMapSubTitle = styled.h4<Props>`
-  font-weight: 500;
-  font-size: 33px;
+  font: 500 33px outfit;
   text-align: ${(props) => (props.left ? "left" : "right")};
   color: #15c4c6;
   margin-bottom: 8px;
