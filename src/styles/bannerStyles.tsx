@@ -104,17 +104,14 @@ export const BannerImage = styled.img`
   }
 `;
 
-export const CardContainer = styled.div<CardPositionProps>`
+const CommonCardStyles = styled.div`
   position: absolute;
-  top: ${(props) => props.top};
-  right: ${(props) => props.right};
-  bottom: ${(props) => props.bottom};
-  left: ${(props) => props.left};
   max-width: 220px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(40px);
   border-radius: 90px;
-  padding: 20px;
+  padding: 18px;
+
   @media (max-width: 768px) {
     border-radius: 18px;
     padding: 6px 5px 5px 15px;
@@ -122,7 +119,27 @@ export const CardContainer = styled.div<CardPositionProps>`
   }
 `;
 
-export const CardBody = styled.p`
+export const LeftTopCardContainer = styled(CommonCardStyles)`
+  top: 25%;
+  left: 5%;
+`;
+
+export const LeftBottomCardContainer = styled(CommonCardStyles)`
+  bottom: 25%;
+  left: 10%;
+`;
+
+export const RightTopCardContainer = styled(CommonCardStyles)`
+  top: 10%;
+  right: 5%;
+`;
+
+export const RightBottomCardContainer = styled(CommonCardStyles)`
+  right: 13%;
+  bottom: 30%;
+`;
+
+export const CardContent = styled.p`
   color: white;
   font-size: 14px;
 

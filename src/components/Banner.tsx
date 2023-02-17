@@ -9,12 +9,15 @@ import {
   BannerWrapper,
   BreakLine,
   ButtonIcon,
-  CardBody,
-  CardContainer,
+  CardContent,
   InputContainer,
   InputEmail,
+  LeftTopCardContainer,
   Select,
   SelectOption,
+  LeftBottomCardContainer,
+  RightTopCardContainer,
+  RightBottomCardContainer,
 } from "../styles/bannerStyles";
 
 import btnPng from "../assets/images/btnPng.png";
@@ -42,22 +45,20 @@ const Banner = () => (
     </BannerContentWrapper>
     <BannerImageSection>
       <BannerImage src={bannerImage} alt="banner" />
-      <CardContainer top="25%" right="auto" bottom="auto" left="5%">
-        <CardBody>Automate payments for quick transparent cashout?</CardBody>
-      </CardContainer>
-      <CardContainer top="auto" right="auto" bottom="25%" left="10%">
-        <CardBody>
-          All on one platform that doesn’t lag? You’re Kidding?
-        </CardBody>
-      </CardContainer>
-      <CardContainer top="10%" right="5%" bottom="auto" left="auto">
-        <CardBody>You mean, i can track my scholars’ performance</CardBody>
-      </CardContainer>
-      <CardContainer top="auto" right="13%" bottom="30%" left="auto">
-        <CardBody>
+      <LeftTopCardContainer>
+        <CardContent>Automate payments for quick transparent?</CardContent>
+      </LeftTopCardContainer>
+      <LeftBottomCardContainer>
+        <CardContent>All on one platform that doesn’t lag?</CardContent>
+      </LeftBottomCardContainer>
+      <RightTopCardContainer>
+        <CardContent>You mean, i can track my scholars?</CardContent>
+      </RightTopCardContainer>
+      <RightBottomCardContainer>
+        <CardContent>
           Search and Breed <BreakLine /> Axies and NFTs
-        </CardBody>
-      </CardContainer>
+        </CardContent>
+      </RightBottomCardContainer>
     </BannerImageSection>
   </BannerWrapper>
 );
