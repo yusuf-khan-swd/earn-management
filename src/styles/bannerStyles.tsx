@@ -92,7 +92,6 @@ export const BannerImageSection = styled.div`
 
 export const BannerImage = styled.img`
   max-width: 716px;
-  max-height: 550px;
 
   @media (max-width: 1120px) {
     max-width: 615px;
@@ -120,23 +119,43 @@ const CommonCardStyles = styled.div`
 `;
 
 export const LeftTopCardContainer = styled(CommonCardStyles)`
-  top: 25%;
-  left: 5%;
+  top: 150px;
+  left: 20px;
+
+  @media (max-width: 640px) {
+    top: 79px;
+    left: 2px;
+  }
 `;
 
 export const LeftBottomCardContainer = styled(CommonCardStyles)`
-  bottom: 25%;
-  left: 10%;
+  bottom: 135px;
+  left: 35px;
+
+  @media (max-width: 640px) {
+    bottom: 58px;
+    left: 6px;
+  }
 `;
 
 export const RightTopCardContainer = styled(CommonCardStyles)`
-  top: 10%;
-  right: 5%;
+  top: 65px;
+  right: 3px;
+
+  @media (max-width: 640px) {
+    top: 25px;
+    right: 4px;
+  }
 `;
 
 export const RightBottomCardContainer = styled(CommonCardStyles)`
-  right: 13%;
-  bottom: 30%;
+  right: 58px;
+  bottom: 175px;
+
+  @media (max-width: 640px) {
+    right: 17px;
+    bottom: 80px;
+  }
 `;
 
 export const CardContent = styled.p`
