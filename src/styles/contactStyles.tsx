@@ -123,7 +123,4 @@ export const SubmitButton = styled.button`
   border-radius: 50%;
   cursor: pointer;
   font-weight: 500;
-
-  @media (max-width: 640px) {
-  }
 `;
