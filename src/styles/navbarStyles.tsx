@@ -49,7 +49,8 @@ export const NavSocialMediaContainer = styled.div`
   align-items: center;
 
   @media (max-width: 640px) {
-    display: none;
+    min-width: 220px;
+    margin-top: 10px;
   }
 `;
 
@@ -83,6 +84,9 @@ export const MenuIcon = styled.div`
 `;
 
 export const MobileSideNav = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 0;
   position: fixed;

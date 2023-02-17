@@ -50,21 +50,19 @@ const Navbar = () => {
     }
   };
 
+  const navItems = ["Road Map", "Contact", "Blog"];
+
   return (
     <>
       <NavbarWrapper>
         <NavLogo src={logo} alt="logo" />
         <DesktopMenuContainer>
           <MenuContainer>
-            <MenuItems>
-              <MenuItemsLink href="#">Road Map</MenuItemsLink>
-            </MenuItems>
-            <MenuItems>
-              <MenuItemsLink href="#">Contact</MenuItemsLink>
-            </MenuItems>
-            <MenuItems>
-              <MenuItemsLink href="#">Blog</MenuItemsLink>
-            </MenuItems>
+            {navItems.map((item, index) => (
+              <MenuItems key={index}>
+                <MenuItemsLink href="#">{item}</MenuItemsLink>
+              </MenuItems>
+            ))}
           </MenuContainer>
           <NavSocialMediaContainer>
             <DiscordLink href="#">
@@ -88,10 +86,19 @@ const Navbar = () => {
         <CloseButton href="#" onClick={closeNav}>
           &times;
         </CloseButton>
-        <MobileMenuAnchor href="#">About</MobileMenuAnchor>
-        <MobileMenuAnchor href="#">Services</MobileMenuAnchor>
-        <MobileMenuAnchor href="#">Clients</MobileMenuAnchor>
-        <MobileMenuAnchor href="#">Contact</MobileMenuAnchor>
+        {navItems.map((item, index) => (
+          <MobileMenuAnchor key={index} href="#">
+            {item}
+          </MobileMenuAnchor>
+        ))}
+        <NavSocialMediaContainer>
+          <DiscordLink href="#">
+            <Discord src={discordImage} alt="discord" />
+          </DiscordLink>
+          <TwitterLink href="#">
+            <Twitter src={twitterImage} alt="twitter" />
+          </TwitterLink>
+        </NavSocialMediaContainer>
       </MobileSideNav>
 
       <MobileMainDiv id="main"></MobileMainDiv>
