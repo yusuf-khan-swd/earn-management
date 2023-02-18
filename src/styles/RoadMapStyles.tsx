@@ -102,9 +102,9 @@ export const RoadMapImageContainer = styled.div<Props>`
 
   @media (max-width: 640px) {
     max-width: 90px;
-    left: ${(props) => (props.left ? "-25%" : "auto")};
-    right: ${(props) => (!props.left ? "-20%" : "auto")};
-    top: 40%;
+    left: ${(props) => (props.left ? "-50px" : "auto")};
+    right: ${(props) => (!props.left ? "-50px" : "auto")};
+    top: 120px;
   }
 `;
 
