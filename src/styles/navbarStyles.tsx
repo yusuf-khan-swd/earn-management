@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavProps } from "../types/interfaces";
 
 export const NavbarWrapper = styled.nav`
   font-size: 15px;
@@ -83,12 +84,12 @@ export const MenuIcon = styled.div`
   margin: 6px 0;
 `;
 
-export const MobileSideNav = styled.div`
+export const MobileSideNav = styled.div<NavProps>`
+  width: ${(props) => (props.openMenu ? "100vw" : 0)};
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -121,5 +122,3 @@ export const CloseButton = styled.a`
   right: 25px;
   font-size: 40px;
 `;
-
-export const MobileMainDiv = styled.div``;

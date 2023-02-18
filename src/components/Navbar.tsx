@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import {
   Discord,
   DiscordLink,
@@ -16,7 +16,6 @@ import {
   MobileMenuContainer,
   MobileSideNav,
   MobileMenuAnchor,
-  MobileMainDiv,
   CloseButton,
 } from "../styles/navbarStyles";
 
@@ -25,30 +24,7 @@ import discordImage from "../assets/images/discord.png";
 import twitterImage from "../assets/images/twitter.png";
 
 const Navbar = () => {
-  const openNav = () => {
-    const mySideNav = document.getElementById("mySidenav");
-    const main = document.getElementById("main");
-
-    if (mySideNav != null) {
-      mySideNav.style.width = "100vw";
-    }
-
-    if (main != null) {
-      main.style.marginLeft = "0";
-    }
-  };
-  const closeNav = () => {
-    const mySideNav = document.getElementById("mySidenav");
-    const main = document.getElementById("main");
-
-    if (mySideNav != null) {
-      mySideNav.style.width = "0";
-    }
-
-    if (main != null) {
-      main.style.marginLeft = "0";
-    }
-  };
+  const [openMenu, setOpenMenu] = useState(false);
 
   const navItems = ["Road Map", "Contact", "Blog"];
 
@@ -74,7 +50,7 @@ const Navbar = () => {
           </NavSocialMediaContainer>
         </DesktopMenuContainer>
         <MobileMenuContainer>
-          <MenuIconContainer onClick={openNav}>
+          <MenuIconContainer onClick={() => setOpenMenu(true)}>
             <MenuIcon />
             <MenuIcon />
             <MenuIcon />
@@ -82,8 +58,8 @@ const Navbar = () => {
         </MobileMenuContainer>
       </NavbarWrapper>
 
-      <MobileSideNav id="mySidenav">
-        <CloseButton href="#" onClick={closeNav}>
+      <MobileSideNav openMenu={openMenu}>
+        <CloseButton href="#" onClick={() => setOpenMenu(false)}>
           &times;
         </CloseButton>
         {navItems.map((item, index) => (
@@ -100,8 +76,6 @@ const Navbar = () => {
           </TwitterLink>
         </NavSocialMediaContainer>
       </MobileSideNav>
-
-      <MobileMainDiv id="main"></MobileMainDiv>
     </>
   );
 };
